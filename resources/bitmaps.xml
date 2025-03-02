@@ -1,0 +1,8 @@
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+    <bitmap id="LauncherIcon" filename="images/icon.png" />
+    <bitmap id="DoNotDisturbIcon" filename="images/donotdisturb.png">
+        <palette>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+</resources>

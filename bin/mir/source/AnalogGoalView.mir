@@ -1,0 +1,273 @@
+[ @file = "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogGoalView.mc"; @line = 7; ]
+import Toybox.Application;
+[ @file = "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogGoalView.mc"; @line = 8; ]
+import Toybox.Graphics;
+[ @file = "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogGoalView.mc"; @line = 9; ]
+import Toybox.Lang;
+[ @file = "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogGoalView.mc"; @line = 10; ]
+import Toybox.System;
+[ @file = "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogGoalView.mc"; @line = 11; ]
+import Toybox.Time;
+[ @file = "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogGoalView.mc"; @line = 12; ]
+import Toybox.Time.Gregorian;
+[ @file = "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogGoalView.mc"; @line = 13; ]
+import Toybox.WatchUi;
+[ @file = "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogGoalView.mc"; @line = 16; ]
+class AnalogGoalView extends WatchUi.View{
+    [ @file = "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogGoalView.mc"; @line = 16; ]
+    <init> {
+    }
+    [ @file = "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogGoalView.mc"; @line = 16; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogGoalView.mc"; @line = 17; @position = 16; ]
+    private
+    var _goalString as String;
+    //! Initialize the string to display on the goal view.
+    //! @param goal The goal triggered
+    [ @file = "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogGoalView.mc"; @line = 21; ]
+    public
+    function initialize(goal as GoalType) as Void {
+C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogGoalView_mc_21_49_33_4_start:
+[ "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogGoalView.mc" 22 8 ]
+        %tmp.2 = getv ? :View;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+[ "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogGoalView.mc" 24 8 ]
+        %tmp.4 = "GOAL!";
+        putv self :_goalString %tmp.4;
+[ "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogGoalView.mc" 26 8 ]
+C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogGoalView_mc_26_8_32_8_if_stmt:
+        %tmp.6 = lgetv %goal;
+        %tmp.7 = getm $.Toybox.Application;
+        %tmp.8 = getv %tmp.7 :GOAL_TYPE_STEPS;
+        %tmp.9 = eq %tmp.6 %tmp.8;
+        bf %tmp.9 @C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogGoalView_mc_26_8_32_8_if_false;
+C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogGoalView_mc_26_8_32_8_if_true:
+C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogGoalView_mc_26_49_28_8_start:
+[ "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogGoalView.mc" 27 12 ]
+        %tmp.10 = "STEPS ";
+        %tmp.12 = getv ? :_goalString;
+        %tmp.13 = add %tmp.10 %tmp.12;
+        putv self :_goalString %tmp.13;
+C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogGoalView_mc_26_49_28_8_stop:
+        goto @C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogGoalView_mc_26_8_32_8_if_end;
+C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogGoalView_mc_26_8_32_8_if_false:
+[ "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogGoalView.mc" 28 15 ]
+C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogGoalView_mc_28_15_32_8_if_stmt:
+        %tmp.15 = lgetv %goal;
+        %tmp.16 = getm $.Toybox.Application;
+        %tmp.17 = getv %tmp.16 :GOAL_TYPE_FLOORS_CLIMBED;
+        %tmp.18 = eq %tmp.15 %tmp.17;
+        bf %tmp.18 @C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogGoalView_mc_28_15_32_8_if_false;
+C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogGoalView_mc_28_15_32_8_if_true:
+C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogGoalView_mc_28_65_30_8_start:
+[ "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogGoalView.mc" 29 12 ]
+        %tmp.19 = "STAIRS ";
+        %tmp.21 = getv ? :_goalString;
+        %tmp.22 = add %tmp.19 %tmp.21;
+        putv self :_goalString %tmp.22;
+C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogGoalView_mc_28_65_30_8_stop:
+        goto @C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogGoalView_mc_28_15_32_8_if_end;
+C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogGoalView_mc_28_15_32_8_if_false:
+[ "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogGoalView.mc" 30 15 ]
+C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogGoalView_mc_30_15_32_8_if_stmt:
+        %tmp.24 = lgetv %goal;
+        %tmp.25 = getm $.Toybox.Application;
+        %tmp.26 = getv %tmp.25 :GOAL_TYPE_ACTIVE_MINUTES;
+        %tmp.27 = eq %tmp.24 %tmp.26;
+        bf %tmp.27 @C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogGoalView_mc_30_15_32_8_if_end;
+C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogGoalView_mc_30_15_32_8_if_true:
+C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogGoalView_mc_30_65_32_8_start:
+[ "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogGoalView.mc" 31 12 ]
+        %tmp.28 = "ACTIVE ";
+        %tmp.30 = getv ? :_goalString;
+        %tmp.31 = add %tmp.28 %tmp.30;
+        putv self :_goalString %tmp.31;
+C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogGoalView_mc_30_65_32_8_stop:
+        goto @C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogGoalView_mc_30_15_32_8_if_end;
+C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogGoalView_mc_30_15_32_8_if_end:
+C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogGoalView_mc_28_15_32_8_if_end:
+C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogGoalView_mc_26_8_32_8_if_end:
+C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogGoalView_mc_21_49_33_4_stop:
+    }
+    //! Load your resources here
+    //! @param dc Device context
+    [ @file = "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogGoalView.mc"; @line = 37; ]
+    public
+    function onLayout(dc as Dc) as Void {
+C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogGoalView_mc_37_47_40_4_start:
+[ "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogGoalView.mc" 39 8 ]
+        %tmp.1 = lgetv %dc;
+        %tmp.2 = getv function %tmp.1 :clearClip;
+        invoke %tmp.1 %tmp.2();
+C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogGoalView_mc_37_47_40_4_stop:
+    }
+    //! Update the clock face graphics
+    //! @param dc Device Context
+    [ @file = "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogGoalView.mc"; @line = 44; ]
+    public
+    function onUpdate(dc as Dc) as Void {
+C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogGoalView_mc_44_47_67_4_start:
+[ "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogGoalView.mc" 45 8 ]
+        [ "C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogGoalView_mc_44_47_67_4_start" "C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogGoalView_mc_44_47_67_4_stop" ]
+        %width.1 = local;
+        %tmp.1 = lgetv %dc;
+        %tmp.2 = getv function %tmp.1 :getWidth;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %width.1 %tmp.3;
+[ "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogGoalView.mc" 46 8 ]
+        [ "C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogGoalView_mc_44_47_67_4_start" "C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogGoalView_mc_44_47_67_4_stop" ]
+        %height.2 = local;
+        %tmp.4 = lgetv %dc;
+        %tmp.5 = getv function %tmp.4 :getHeight;
+        %tmp.6 = invoke %tmp.4 %tmp.5();
+        lputv %height.2 %tmp.6;
+[ "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogGoalView.mc" 48 8 ]
+        [ "C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogGoalView_mc_44_47_67_4_start" "C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogGoalView_mc_44_47_67_4_stop" ]
+        %now.3 = local;
+        %tmp.7 = getm $.Toybox.Time;
+        %tmp.8 = getv function %tmp.7 :now;
+        %tmp.9 = invoke %tmp.7 %tmp.8();
+        lputv %now.3 %tmp.9;
+[ "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogGoalView.mc" 49 8 ]
+        [ "C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogGoalView_mc_44_47_67_4_start" "C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogGoalView_mc_44_47_67_4_stop" ]
+        %info.4 = local;
+        %tmp.10 = getm $.Toybox.Time.Gregorian;
+        %tmp.11 = getv function %tmp.10 :info;
+        %tmp.13 = lgetv %now.3;
+        %tmp.14 = getm $.Toybox.Time;
+        %tmp.15 = getv %tmp.14 :FORMAT_LONG;
+        %tmp.16 = invoke %tmp.10 %tmp.11(%tmp.13, %tmp.15);
+        lputv %info.4 %tmp.16;
+[ "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogGoalView.mc" 51 8 ]
+        [ "C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogGoalView_mc_44_47_67_4_start" "C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogGoalView_mc_44_47_67_4_stop" ]
+        %dateStr.5 = local;
+        %tmp.17 = getm $.Toybox.Lang;
+        %tmp.18 = getv function %tmp.17 :format;
+        %tmp.19 = "$1$ $2$ $3$";
+        %tmp.20 = newa 3;
+        %tmp.21 = lgetv %info.4;
+        %tmp.22 = getv %tmp.21 :day_of_week;
+        %tmp.23 = dup %tmp.20;
+        %tmp.24 = aputv %tmp.23 0 %tmp.22;
+        %tmp.25 = lgetv %info.4;
+        %tmp.26 = getv %tmp.25 :month;
+        %tmp.27 = dup %tmp.24;
+        %tmp.28 = aputv %tmp.27 1 %tmp.26;
+        %tmp.29 = lgetv %info.4;
+        %tmp.30 = getv %tmp.29 :day;
+        %tmp.31 = dup %tmp.28;
+        %tmp.32 = aputv %tmp.31 2 %tmp.30;
+        %tmp.33 = invoke %tmp.17 %tmp.18(%tmp.19, %tmp.32);
+        lputv %dateStr.5 %tmp.33;
+[ "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogGoalView.mc" 54 8 ]
+        %tmp.34 = lgetv %dc;
+        %tmp.35 = getv function %tmp.34 :setColor;
+        %tmp.36 = getm $.Toybox.Graphics;
+        %tmp.37 = getv %tmp.36 :COLOR_BLACK;
+        %tmp.38 = getm $.Toybox.Graphics;
+        %tmp.39 = getv %tmp.38 :COLOR_WHITE;
+        invoke %tmp.34 %tmp.35(%tmp.37, %tmp.39);
+[ "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogGoalView.mc" 55 8 ]
+        %tmp.40 = lgetv %dc;
+        %tmp.41 = getv function %tmp.40 :fillRectangle;
+        %tmp.42 = 0;
+        %tmp.43 = 0;
+        %tmp.45 = lgetv %width.1;
+        %tmp.47 = lgetv %height.2;
+        invoke %tmp.40 %tmp.41(%tmp.42, %tmp.43, %tmp.45, %tmp.47);
+[ "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogGoalView.mc" 58 8 ]
+        %tmp.48 = lgetv %dc;
+        %tmp.49 = getv function %tmp.48 :setColor;
+        %tmp.50 = getm $.Toybox.Graphics;
+        %tmp.51 = getv %tmp.50 :COLOR_DK_GRAY;
+        %tmp.52 = getm $.Toybox.Graphics;
+        %tmp.53 = getv %tmp.52 :COLOR_DK_GRAY;
+        invoke %tmp.48 %tmp.49(%tmp.51, %tmp.53);
+[ "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogGoalView.mc" 59 8 ]
+        %tmp.54 = lgetv %dc;
+        %tmp.55 = getv function %tmp.54 :fillPolygon;
+        %tmp.56 = newa 4;
+        %tmp.57 = newa 2;
+        %tmp.58 = 0;
+        %tmp.59 = dup %tmp.57;
+        %tmp.60 = aputv %tmp.59 0 %tmp.58;
+        %tmp.61 = 0;
+        %tmp.62 = dup %tmp.60;
+        %tmp.63 = aputv %tmp.62 1 %tmp.61;
+        %tmp.64 = dup %tmp.56;
+        %tmp.65 = aputv %tmp.64 0 %tmp.63;
+        %tmp.66 = newa 2;
+        %tmp.68 = lgetv %width.1;
+        %tmp.69 = dup %tmp.66;
+        %tmp.70 = aputv %tmp.69 0 %tmp.68;
+        %tmp.71 = 0;
+        %tmp.72 = dup %tmp.70;
+        %tmp.73 = aputv %tmp.72 1 %tmp.71;
+        %tmp.74 = dup %tmp.65;
+        %tmp.75 = aputv %tmp.74 1 %tmp.73;
+        %tmp.76 = newa 2;
+        %tmp.78 = lgetv %width.1;
+        %tmp.79 = dup %tmp.76;
+        %tmp.80 = aputv %tmp.79 0 %tmp.78;
+        %tmp.82 = lgetv %height.2;
+        %tmp.83 = dup %tmp.80;
+        %tmp.84 = aputv %tmp.83 1 %tmp.82;
+        %tmp.85 = dup %tmp.75;
+        %tmp.86 = aputv %tmp.85 2 %tmp.84;
+        %tmp.87 = newa 2;
+        %tmp.88 = 0;
+        %tmp.89 = dup %tmp.87;
+        %tmp.90 = aputv %tmp.89 0 %tmp.88;
+        %tmp.91 = 0;
+        %tmp.92 = dup %tmp.90;
+        %tmp.93 = aputv %tmp.92 1 %tmp.91;
+        %tmp.94 = dup %tmp.86;
+        %tmp.95 = aputv %tmp.94 3 %tmp.93;
+        invoke %tmp.54 %tmp.55(%tmp.95);
+[ "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogGoalView.mc" 62 8 ]
+        %tmp.96 = lgetv %dc;
+        %tmp.97 = getv function %tmp.96 :setColor;
+        %tmp.98 = getm $.Toybox.Graphics;
+        %tmp.99 = getv %tmp.98 :COLOR_WHITE;
+        %tmp.100 = getm $.Toybox.Graphics;
+        %tmp.101 = getv %tmp.100 :COLOR_TRANSPARENT;
+        invoke %tmp.96 %tmp.97(%tmp.99, %tmp.101);
+[ "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogGoalView.mc" 63 8 ]
+        %tmp.102 = lgetv %dc;
+        %tmp.103 = getv function %tmp.102 :drawText;
+        %tmp.105 = lgetv %width.1;
+        %tmp.106 = 2;
+        %tmp.107 = div %tmp.105 %tmp.106;
+        %tmp.109 = lgetv %height.2;
+        %tmp.110 = 4;
+        %tmp.111 = div %tmp.109 %tmp.110;
+        %tmp.112 = getm $.Toybox.Graphics;
+        %tmp.113 = getv %tmp.112 :FONT_MEDIUM;
+        %tmp.115 = lgetv %dateStr.5;
+        %tmp.116 = getm $.Toybox.Graphics;
+        %tmp.117 = getv %tmp.116 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.102 %tmp.103(%tmp.107, %tmp.111, %tmp.113, %tmp.115, %tmp.117);
+[ "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogGoalView.mc" 66 8 ]
+        %tmp.118 = lgetv %dc;
+        %tmp.119 = getv function %tmp.118 :drawText;
+        %tmp.121 = lgetv %width.1;
+        %tmp.122 = 2;
+        %tmp.123 = div %tmp.121 %tmp.122;
+        %tmp.125 = lgetv %height.2;
+        %tmp.126 = 2;
+        %tmp.127 = div %tmp.125 %tmp.126;
+        %tmp.128 = getm $.Toybox.Graphics;
+        %tmp.129 = getv %tmp.128 :FONT_MEDIUM;
+        %tmp.131 = getv ? :_goalString;
+        %tmp.132 = getm $.Toybox.Graphics;
+        %tmp.133 = getv %tmp.132 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.118 %tmp.119(%tmp.123, %tmp.127, %tmp.129, %tmp.131, %tmp.133);
+C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogGoalView_mc_44_47_67_4_stop:
+    }
+}
+[ @file = "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogGoalView.mc"; @line = 7; ]
+<init> {
+}

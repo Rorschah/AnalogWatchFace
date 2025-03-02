@@ -1,0 +1,88 @@
+[ @file = "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogSettingsMenu.mc"; @line = 7; ]
+import Toybox.Application.Storage;
+[ @file = "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogSettingsMenu.mc"; @line = 8; ]
+import Toybox.Lang;
+[ @file = "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogSettingsMenu.mc"; @line = 9; ]
+import Toybox.WatchUi;
+[ @file = "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogSettingsMenu.mc"; @line = 12; ]
+class AnalogSettingsMenu extends WatchUi.Menu2{
+    [ @file = "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogSettingsMenu.mc"; @line = 12; ]
+    <init> {
+    }
+    [ @file = "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogSettingsMenu.mc"; @line = 12; ]
+    static
+    <init> {
+    }
+    //! Constructor
+    [ @file = "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogSettingsMenu.mc"; @line = 15; ]
+    public
+    function initialize() as Void {
+C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogSettingsMenu_mc_15_33_17_4_start:
+[ "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogSettingsMenu.mc" 16 8 ]
+        %tmp.2 = getv ? :Menu2;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        %tmp.4 = newd 1;
+        %tmp.6 = const :title;
+        %tmp.7 = "Settings";
+        %tmp.8 = dup %tmp.4;
+        %tmp.9 = aputv %tmp.8 %tmp.6 %tmp.7;
+        invoke %tmp.2 %tmp.3(%tmp.9);
+C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogSettingsMenu_mc_15_33_17_4_stop:
+    }
+}
+[ @file = "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogSettingsMenu.mc"; @line = 21; ]
+class AnalogSettingsMenuDelegate extends WatchUi.Menu2InputDelegate{
+    [ @file = "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogSettingsMenu.mc"; @line = 21; ]
+    <init> {
+    }
+    [ @file = "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogSettingsMenu.mc"; @line = 21; ]
+    static
+    <init> {
+    }
+    //! Constructor
+    [ @file = "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogSettingsMenu.mc"; @line = 24; ]
+    public
+    function initialize() as Void {
+C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogSettingsMenu_mc_24_33_26_4_start:
+[ "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogSettingsMenu.mc" 25 8 ]
+        %tmp.2 = getv ? :Menu2InputDelegate;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogSettingsMenu_mc_24_33_26_4_stop:
+    }
+    //! Handle a menu item being selected
+    //! @param menuItem The menu item selected
+    [ @file = "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogSettingsMenu.mc"; @line = 30; ]
+    public
+    function onSelect(menuItem as MenuItem) as Void {
+C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogSettingsMenu_mc_30_59_34_4_start:
+[ "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogSettingsMenu.mc" 31 8 ]
+C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogSettingsMenu_mc_31_8_33_8_if_stmt:
+        %tmp.2 = lgetv %menuItem;
+        %tmp.4 = getv ? :ToggleMenuItem;
+        %tmp.5 = isa %tmp.2 %tmp.4;
+        bf %tmp.5 @C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogSettingsMenu_mc_31_8_33_8_if_end;
+C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogSettingsMenu_mc_31_8_33_8_if_true:
+C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogSettingsMenu_mc_31_48_33_8_start:
+[ "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogSettingsMenu.mc" 32 12 ]
+        %tmp.6 = getm $.Toybox.Application.Storage;
+        %tmp.7 = getv function %tmp.6 :setValue;
+        %tmp.8 = lgetv %menuItem;
+        %tmp.9 = as %tmp.8 { (ToggleMenuItem) };
+        %tmp.10 = getv function %tmp.9 :getId;
+        %tmp.11 = invoke %tmp.9 %tmp.10();
+        %tmp.12 = as %tmp.11 Number;
+        %tmp.13 = lgetv %menuItem;
+        %tmp.14 = as %tmp.13 { (ToggleMenuItem) };
+        %tmp.15 = getv function %tmp.14 :isEnabled;
+        %tmp.16 = invoke %tmp.14 %tmp.15();
+        invoke %tmp.6 %tmp.7(%tmp.12, %tmp.16);
+C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogSettingsMenu_mc_31_48_33_8_stop:
+        goto @C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogSettingsMenu_mc_31_8_33_8_if_end;
+C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogSettingsMenu_mc_31_8_33_8_if_end:
+C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogSettingsMenu_mc_30_59_34_4_stop:
+    }
+}
+[ @file = "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogSettingsMenu.mc"; @line = 7; ]
+<init> {
+}

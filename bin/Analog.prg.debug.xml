@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="C:\Users\d_kuc\Desktop\Garmin\Analog\manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogSettingsMenu.mc" id="1" lineNum="12" parent="globals/AnalogSettingsMenu" pc="268435460" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogApp.mc" id="2" lineNum="13" parent="globals/AnalogWatch" pc="268435472" symbol="&lt;init&gt;"/>
+        <entry filename="c:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\bin\\gen\\006-B4536-00\\source\\Rez.mcgen" id="3" lineNum="7" parent="globals/Rez" pc="268435484" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogSettingsMenu.mc" id="4" lineNum="21" parent="globals/AnalogSettingsMenuDelegate" pc="268435504" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogGoalView.mc" id="5" lineNum="16" parent="globals/AnalogGoalView" pc="268435516" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogSettingsView.mc" id="6" lineNum="33" parent="globals/AnalogSettingsDelegate" pc="268435528" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="7" lineNum="17" parent="globals/AnalogView" pc="268435540" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="8" lineNum="392" parent="globals/AnalogDelegate" pc="268435552" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogSettingsView.mc" id="9" lineNum="13" parent="globals/AnalogSettingsView" pc="268435564" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogSettingsMenu.mc" id="10" lineNum="15" parent="globals/AnalogSettingsMenu" pc="268435576" symbol="initialize"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogSettingsMenu.mc" id="10" lineNum="16" parent="globals/AnalogSettingsMenu" pc="268435578" symbol="initialize"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogApp.mc" id="11" lineNum="22" parent="globals/AnalogWatch" pc="268435609" symbol="onStart"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogApp.mc" id="12" lineNum="51" parent="globals/AnalogWatch" pc="268435612" symbol="getSettingsView"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogApp.mc" id="12" lineNum="52" parent="globals/AnalogWatch" pc="268435614" symbol="getSettingsView"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogApp.mc" id="13" lineNum="32" parent="globals/AnalogWatch" pc="268435669" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogApp.mc" id="13" lineNum="33" parent="globals/AnalogWatch" pc="268435672" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogApp.mc" id="13" lineNum="34" parent="globals/AnalogWatch" pc="268435687" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogApp.mc" id="13" lineNum="35" parent="globals/AnalogWatch" pc="268435711" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogApp.mc" id="13" lineNum="36" parent="globals/AnalogWatch" pc="268435737" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogApp.mc" id="13" lineNum="38" parent="globals/AnalogWatch" pc="268435755" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogApp.mc" id="14" lineNum="45" parent="globals/AnalogWatch" pc="268435786" symbol="getGoalView"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogApp.mc" id="14" lineNum="46" parent="globals/AnalogWatch" pc="268435788" symbol="getGoalView"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogApp.mc" id="15" lineNum="16" parent="globals/AnalogWatch" pc="268435820" symbol="initialize"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogApp.mc" id="15" lineNum="17" parent="globals/AnalogWatch" pc="268435822" symbol="initialize"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogApp.mc" id="16" lineNum="27" parent="globals/AnalogWatch" pc="268435835" symbol="onStop"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogSettingsMenu.mc" id="17" lineNum="24" parent="globals/AnalogSettingsMenuDelegate" pc="268435838" symbol="initialize"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogSettingsMenu.mc" id="17" lineNum="25" parent="globals/AnalogSettingsMenuDelegate" pc="268435840" symbol="initialize"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogSettingsMenu.mc" id="18" lineNum="30" parent="globals/AnalogSettingsMenuDelegate" pc="268435853" symbol="onSelect"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogSettingsMenu.mc" id="18" lineNum="31" parent="globals/AnalogSettingsMenuDelegate" pc="268435855" symbol="onSelect"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogSettingsMenu.mc" id="18" lineNum="32" parent="globals/AnalogSettingsMenuDelegate" pc="268435870" symbol="onSelect"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogGoalView.mc" id="19" lineNum="37" parent="globals/AnalogGoalView" pc="268435903" symbol="onLayout"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogGoalView.mc" id="19" lineNum="39" parent="globals/AnalogGoalView" pc="268435905" symbol="onLayout"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogGoalView.mc" id="20" lineNum="21" parent="globals/AnalogGoalView" pc="268435914" symbol="initialize"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogGoalView.mc" id="20" lineNum="22" parent="globals/AnalogGoalView" pc="268435916" symbol="initialize"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogGoalView.mc" id="20" lineNum="24" parent="globals/AnalogGoalView" pc="268435928" symbol="initialize"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogGoalView.mc" id="20" lineNum="26" parent="globals/AnalogGoalView" pc="268435940" symbol="initialize"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogGoalView.mc" id="20" lineNum="27" parent="globals/AnalogGoalView" pc="268435947" symbol="initialize"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogGoalView.mc" id="20" lineNum="28" parent="globals/AnalogGoalView" pc="268435968" symbol="initialize"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogGoalView.mc" id="20" lineNum="29" parent="globals/AnalogGoalView" pc="268435976" symbol="initialize"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogGoalView.mc" id="20" lineNum="30" parent="globals/AnalogGoalView" pc="268435997" symbol="initialize"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogGoalView.mc" id="20" lineNum="31" parent="globals/AnalogGoalView" pc="268436005" symbol="initialize"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogGoalView.mc" id="21" lineNum="44" parent="globals/AnalogGoalView" pc="268436027" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogGoalView.mc" id="21" lineNum="45" parent="globals/AnalogGoalView" pc="268436030" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogGoalView.mc" id="21" lineNum="46" parent="globals/AnalogGoalView" pc="268436039" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogGoalView.mc" id="21" lineNum="48" parent="globals/AnalogGoalView" pc="268436048" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogGoalView.mc" id="21" lineNum="49" parent="globals/AnalogGoalView" pc="268436060" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogGoalView.mc" id="21" lineNum="51" parent="globals/AnalogGoalView" pc="268436078" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogGoalView.mc" id="21" lineNum="54" parent="globals/AnalogGoalView" pc="268436128" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogGoalView.mc" id="21" lineNum="55" parent="globals/AnalogGoalView" pc="268436144" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogGoalView.mc" id="21" lineNum="58" parent="globals/AnalogGoalView" pc="268436160" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogGoalView.mc" id="21" lineNum="59" parent="globals/AnalogGoalView" pc="268436178" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogGoalView.mc" id="21" lineNum="62" parent="globals/AnalogGoalView" pc="268436239" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogGoalView.mc" id="21" lineNum="63" parent="globals/AnalogGoalView" pc="268436256" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogGoalView.mc" id="21" lineNum="66" parent="globals/AnalogGoalView" pc="268436282" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogSettingsView.mc" id="22" lineNum="42" parent="globals/AnalogSettingsDelegate" pc="268436312" symbol="onMenu"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogSettingsView.mc" id="22" lineNum="43" parent="globals/AnalogSettingsDelegate" pc="268436315" symbol="onMenu"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogSettingsView.mc" id="22" lineNum="44" parent="globals/AnalogSettingsDelegate" pc="268436339" symbol="onMenu"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogSettingsView.mc" id="22" lineNum="45" parent="globals/AnalogSettingsDelegate" pc="268436363" symbol="onMenu"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogSettingsView.mc" id="22" lineNum="47" parent="globals/AnalogSettingsDelegate" pc="268436406" symbol="onMenu"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogSettingsView.mc" id="22" lineNum="48" parent="globals/AnalogSettingsDelegate" pc="268436430" symbol="onMenu"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogSettingsView.mc" id="22" lineNum="50" parent="globals/AnalogSettingsDelegate" pc="268436473" symbol="onMenu"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogSettingsView.mc" id="22" lineNum="51" parent="globals/AnalogSettingsDelegate" pc="268436497" symbol="onMenu"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogSettingsView.mc" id="22" lineNum="53" parent="globals/AnalogSettingsDelegate" pc="268436540" symbol="onMenu"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogSettingsView.mc" id="22" lineNum="54" parent="globals/AnalogSettingsDelegate" pc="268436564" symbol="onMenu"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogSettingsView.mc" id="22" lineNum="56" parent="globals/AnalogSettingsDelegate" pc="268436607" symbol="onMenu"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogSettingsView.mc" id="22" lineNum="57" parent="globals/AnalogSettingsDelegate" pc="268436645" symbol="onMenu"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogSettingsView.mc" id="23" lineNum="36" parent="globals/AnalogSettingsDelegate" pc="268436647" symbol="initialize"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogSettingsView.mc" id="23" lineNum="37" parent="globals/AnalogSettingsDelegate" pc="268436649" symbol="initialize"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="24" lineNum="283" parent="globals/AnalogView" pc="268436662" symbol="&lt;globals/AnalogView/&lt;&gt;drawDateString&gt;"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="24" lineNum="284" parent="globals/AnalogView" pc="268436665" symbol="&lt;globals/AnalogView/&lt;&gt;drawDateString&gt;"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="24" lineNum="285" parent="globals/AnalogView" pc="268436691" symbol="&lt;globals/AnalogView/&lt;&gt;drawDateString&gt;"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="24" lineNum="287" parent="globals/AnalogView" pc="268436741" symbol="&lt;globals/AnalogView/&lt;&gt;drawDateString&gt;"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="24" lineNum="288" parent="globals/AnalogView" pc="268436758" symbol="&lt;globals/AnalogView/&lt;&gt;drawDateString&gt;"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="25" lineNum="381" parent="globals/AnalogView" pc="268436779" symbol="onExitSleep"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="25" lineNum="382" parent="globals/AnalogView" pc="268436781" symbol="onExitSleep"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="26" lineNum="386" parent="globals/AnalogView" pc="268436790" symbol="turnPartialUpdatesOff"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="26" lineNum="387" parent="globals/AnalogView" pc="268436792" symbol="turnPartialUpdatesOff"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="27" lineNum="124" parent="globals/AnalogView" pc="268436801" symbol="&lt;globals/AnalogView/&lt;&gt;drawHashMarks&gt;"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="27" lineNum="125" parent="globals/AnalogView" pc="268436804" symbol="&lt;globals/AnalogView/&lt;&gt;drawHashMarks&gt;"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="27" lineNum="126" parent="globals/AnalogView" pc="268436813" symbol="&lt;globals/AnalogView/&lt;&gt;drawHashMarks&gt;"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="27" lineNum="129" parent="globals/AnalogView" pc="268436822" symbol="&lt;globals/AnalogView/&lt;&gt;drawHashMarks&gt;"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="27" lineNum="130" parent="globals/AnalogView" pc="268436833" symbol="&lt;globals/AnalogView/&lt;&gt;drawHashMarks&gt;"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="27" lineNum="131" parent="globals/AnalogView" pc="268436840" symbol="&lt;globals/AnalogView/&lt;&gt;drawHashMarks&gt;"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="27" lineNum="133" parent="globals/AnalogView" pc="268436847" symbol="&lt;globals/AnalogView/&lt;&gt;drawHashMarks&gt;"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="27" lineNum="135" parent="globals/AnalogView" pc="268436865" symbol="&lt;globals/AnalogView/&lt;&gt;drawHashMarks&gt;"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="27" lineNum="136" parent="globals/AnalogView" pc="268436887" symbol="&lt;globals/AnalogView/&lt;&gt;drawHashMarks&gt;"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="27" lineNum="137" parent="globals/AnalogView" pc="268436909" symbol="&lt;globals/AnalogView/&lt;&gt;drawHashMarks&gt;"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="27" lineNum="138" parent="globals/AnalogView" pc="268436931" symbol="&lt;globals/AnalogView/&lt;&gt;drawHashMarks&gt;"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="27" lineNum="139" parent="globals/AnalogView" pc="268436953" symbol="&lt;globals/AnalogView/&lt;&gt;drawHashMarks&gt;"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="27" lineNum="140" parent="globals/AnalogView" pc="268436971" symbol="&lt;globals/AnalogView/&lt;&gt;drawHashMarks&gt;"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="27" lineNum="141" parent="globals/AnalogView" pc="268436981" symbol="&lt;globals/AnalogView/&lt;&gt;drawHashMarks&gt;"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="27" lineNum="142" parent="globals/AnalogView" pc="268437003" symbol="&lt;globals/AnalogView/&lt;&gt;drawHashMarks&gt;"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="27" lineNum="143" parent="globals/AnalogView" pc="268437025" symbol="&lt;globals/AnalogView/&lt;&gt;drawHashMarks&gt;"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="27" lineNum="144" parent="globals/AnalogView" pc="268437047" symbol="&lt;globals/AnalogView/&lt;&gt;drawHashMarks&gt;"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="27" lineNum="145" parent="globals/AnalogView" pc="268437069" symbol="&lt;globals/AnalogView/&lt;&gt;drawHashMarks&gt;"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="27" lineNum="148" parent="globals/AnalogView" pc="268437103" symbol="&lt;globals/AnalogView/&lt;&gt;drawHashMarks&gt;"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="27" lineNum="149" parent="globals/AnalogView" pc="268437136" symbol="&lt;globals/AnalogView/&lt;&gt;drawHashMarks&gt;"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="27" lineNum="150" parent="globals/AnalogView" pc="268437152" symbol="&lt;globals/AnalogView/&lt;&gt;drawHashMarks&gt;"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="27" lineNum="151" parent="globals/AnalogView" pc="268437177" symbol="&lt;globals/AnalogView/&lt;&gt;drawHashMarks&gt;"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="27" lineNum="153" parent="globals/AnalogView" pc="268437190" symbol="&lt;globals/AnalogView/&lt;&gt;drawHashMarks&gt;"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="27" lineNum="158" parent="globals/AnalogView" pc="268437278" symbol="&lt;globals/AnalogView/&lt;&gt;drawHashMarks&gt;"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="28" lineNum="38" parent="globals/AnalogView" pc="268437401" symbol="onLayout"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="28" lineNum="41" parent="globals/AnalogView" pc="268437404" symbol="onLayout"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="28" lineNum="45" parent="globals/AnalogView" pc="268437442" symbol="onLayout"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="28" lineNum="46" parent="globals/AnalogView" pc="268437461" symbol="onLayout"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="28" lineNum="48" parent="globals/AnalogView" pc="268437502" symbol="onLayout"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="28" lineNum="51" parent="globals/AnalogView" pc="268437510" symbol="onLayout"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="28" lineNum="62" parent="globals/AnalogView" pc="268437554" symbol="onLayout"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="28" lineNum="67" parent="globals/AnalogView" pc="268437594" symbol="onLayout"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="28" lineNum="69" parent="globals/AnalogView" pc="268437609" symbol="onLayout"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="28" lineNum="71" parent="globals/AnalogView" pc="268437636" symbol="onLayout"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="28" lineNum="72" parent="globals/AnalogView" pc="268437666" symbol="onLayout"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="28" lineNum="76" parent="globals/AnalogView" pc="268437681" symbol="onLayout"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="28" lineNum="82" parent="globals/AnalogView" pc="268437712" symbol="onLayout"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="28" lineNum="84" parent="globals/AnalogView" pc="268437746" symbol="onLayout"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="28" lineNum="85" parent="globals/AnalogView" pc="268437754" symbol="onLayout"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="28" lineNum="88" parent="globals/AnalogView" pc="268437762" symbol="onLayout"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="29" lineNum="321" parent="globals/AnalogView" pc="268437800" symbol="&lt;globals/AnalogView/&lt;&gt;getBoundingBox&gt;"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="29" lineNum="322" parent="globals/AnalogView" pc="268437803" symbol="&lt;globals/AnalogView/&lt;&gt;getBoundingBox&gt;"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="29" lineNum="323" parent="globals/AnalogView" pc="268437810" symbol="&lt;globals/AnalogView/&lt;&gt;getBoundingBox&gt;"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="29" lineNum="325" parent="globals/AnalogView" pc="268437817" symbol="&lt;globals/AnalogView/&lt;&gt;getBoundingBox&gt;"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="29" lineNum="326" parent="globals/AnalogView" pc="268437833" symbol="&lt;globals/AnalogView/&lt;&gt;getBoundingBox&gt;"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="29" lineNum="327" parent="globals/AnalogView" pc="268437848" symbol="&lt;globals/AnalogView/&lt;&gt;getBoundingBox&gt;"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="29" lineNum="330" parent="globals/AnalogView" pc="268437862" symbol="&lt;globals/AnalogView/&lt;&gt;getBoundingBox&gt;"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="29" lineNum="331" parent="globals/AnalogView" pc="268437879" symbol="&lt;globals/AnalogView/&lt;&gt;getBoundingBox&gt;"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="29" lineNum="334" parent="globals/AnalogView" pc="268437895" symbol="&lt;globals/AnalogView/&lt;&gt;getBoundingBox&gt;"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="29" lineNum="335" parent="globals/AnalogView" pc="268437910" symbol="&lt;globals/AnalogView/&lt;&gt;getBoundingBox&gt;"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="29" lineNum="338" parent="globals/AnalogView" pc="268437924" symbol="&lt;globals/AnalogView/&lt;&gt;getBoundingBox&gt;"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="29" lineNum="339" parent="globals/AnalogView" pc="268437941" symbol="&lt;globals/AnalogView/&lt;&gt;getBoundingBox&gt;"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="29" lineNum="343" parent="globals/AnalogView" pc="268437967" symbol="&lt;globals/AnalogView/&lt;&gt;getBoundingBox&gt;"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="30" lineNum="293" parent="globals/AnalogView" pc="268437982" symbol="onPartialUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="30" lineNum="297" parent="globals/AnalogView" pc="268437985" symbol="onPartialUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="30" lineNum="298" parent="globals/AnalogView" pc="268437994" symbol="onPartialUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="30" lineNum="301" parent="globals/AnalogView" pc="268438008" symbol="onPartialUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="30" lineNum="303" parent="globals/AnalogView" pc="268438020" symbol="onPartialUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="30" lineNum="304" parent="globals/AnalogView" pc="268438029" symbol="onPartialUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="30" lineNum="305" parent="globals/AnalogView" pc="268438052" symbol="onPartialUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="30" lineNum="307" parent="globals/AnalogView" pc="268438091" symbol="onPartialUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="30" lineNum="308" parent="globals/AnalogView" pc="268438103" symbol="onPartialUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="30" lineNum="309" parent="globals/AnalogView" pc="268438122" symbol="onPartialUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="30" lineNum="310" parent="globals/AnalogView" pc="268438143" symbol="onPartialUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="30" lineNum="313" parent="globals/AnalogView" pc="268438170" symbol="onPartialUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="30" lineNum="314" parent="globals/AnalogView" pc="268438187" symbol="onPartialUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="31" lineNum="101" parent="globals/AnalogView" pc="268438203" symbol="&lt;globals/AnalogView/&lt;&gt;generateHandCoordinates&gt;"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="31" lineNum="103" parent="globals/AnalogView" pc="268438206" symbol="&lt;globals/AnalogView/&lt;&gt;generateHandCoordinates&gt;"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="31" lineNum="107" parent="globals/AnalogView" pc="268438300" symbol="&lt;globals/AnalogView/&lt;&gt;generateHandCoordinates&gt;"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="31" lineNum="108" parent="globals/AnalogView" pc="268438305" symbol="&lt;globals/AnalogView/&lt;&gt;generateHandCoordinates&gt;"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="31" lineNum="109" parent="globals/AnalogView" pc="268438321" symbol="&lt;globals/AnalogView/&lt;&gt;generateHandCoordinates&gt;"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="31" lineNum="112" parent="globals/AnalogView" pc="268438337" symbol="&lt;globals/AnalogView/&lt;&gt;generateHandCoordinates&gt;"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="31" lineNum="113" parent="globals/AnalogView" pc="268438348" symbol="&lt;globals/AnalogView/&lt;&gt;generateHandCoordinates&gt;"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="31" lineNum="114" parent="globals/AnalogView" pc="268438378" symbol="&lt;globals/AnalogView/&lt;&gt;generateHandCoordinates&gt;"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="31" lineNum="116" parent="globals/AnalogView" pc="268438408" symbol="&lt;globals/AnalogView/&lt;&gt;generateHandCoordinates&gt;"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="31" lineNum="119" parent="globals/AnalogView" pc="268438448" symbol="&lt;globals/AnalogView/&lt;&gt;generateHandCoordinates&gt;"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="32" lineNum="352" parent="globals/AnalogView" pc="268438451" symbol="&lt;globals/AnalogView/&lt;&gt;drawBackground&gt;"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="32" lineNum="353" parent="globals/AnalogView" pc="268438454" symbol="&lt;globals/AnalogView/&lt;&gt;drawBackground&gt;"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="32" lineNum="354" parent="globals/AnalogView" pc="268438463" symbol="&lt;globals/AnalogView/&lt;&gt;drawBackground&gt;"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="32" lineNum="358" parent="globals/AnalogView" pc="268438472" symbol="&lt;globals/AnalogView/&lt;&gt;drawBackground&gt;"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="32" lineNum="359" parent="globals/AnalogView" pc="268438481" symbol="&lt;globals/AnalogView/&lt;&gt;drawBackground&gt;"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="32" lineNum="363" parent="globals/AnalogView" pc="268438501" symbol="&lt;globals/AnalogView/&lt;&gt;drawBackground&gt;"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="32" lineNum="365" parent="globals/AnalogView" pc="268438510" symbol="&lt;globals/AnalogView/&lt;&gt;drawBackground&gt;"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="32" lineNum="368" parent="globals/AnalogView" pc="268438534" symbol="&lt;globals/AnalogView/&lt;&gt;drawBackground&gt;"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="33" lineNum="374" parent="globals/AnalogView" pc="268438556" symbol="onEnterSleep"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="33" lineNum="375" parent="globals/AnalogView" pc="268438558" symbol="onEnterSleep"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="33" lineNum="376" parent="globals/AnalogView" pc="268438566" symbol="onEnterSleep"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="34" lineNum="29" parent="globals/AnalogView" pc="268438578" symbol="initialize"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="34" lineNum="30" parent="globals/AnalogView" pc="268438580" symbol="initialize"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="34" lineNum="31" parent="globals/AnalogView" pc="268438592" symbol="initialize"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="34" lineNum="32" parent="globals/AnalogView" pc="268438614" symbol="initialize"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="34" lineNum="33" parent="globals/AnalogView" pc="268438622" symbol="initialize"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="35" lineNum="168" parent="globals/AnalogView" pc="268438645" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="35" lineNum="169" parent="globals/AnalogView" pc="268438648" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="35" lineNum="170" parent="globals/AnalogView" pc="268438660" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="35" lineNum="173" parent="globals/AnalogView" pc="268438663" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="35" lineNum="174" parent="globals/AnalogView" pc="268438671" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="35" lineNum="177" parent="globals/AnalogView" pc="268438680" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="35" lineNum="178" parent="globals/AnalogView" pc="268438693" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="35" lineNum="180" parent="globals/AnalogView" pc="268438704" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="35" lineNum="183" parent="globals/AnalogView" pc="268438708" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="35" lineNum="184" parent="globals/AnalogView" pc="268438717" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="35" lineNum="187" parent="globals/AnalogView" pc="268438726" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="35" lineNum="188" parent="globals/AnalogView" pc="268438742" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="35" lineNum="191" parent="globals/AnalogView" pc="268438768" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="35" lineNum="192" parent="globals/AnalogView" pc="268438786" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="35" lineNum="198" parent="globals/AnalogView" pc="268438862" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="35" lineNum="201" parent="globals/AnalogView" pc="268438873" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="35" lineNum="202" parent="globals/AnalogView" pc="268438900" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="35" lineNum="206" parent="globals/AnalogView" pc="268438934" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="35" lineNum="208" parent="globals/AnalogView" pc="268438951" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="35" lineNum="210" parent="globals/AnalogView" pc="268438960" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="35" lineNum="211" parent="globals/AnalogView" pc="268438981" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="35" lineNum="212" parent="globals/AnalogView" pc="268438991" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="35" lineNum="213" parent="globals/AnalogView" pc="268439004" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="35" lineNum="216" parent="globals/AnalogView" pc="268439053" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="35" lineNum="218" parent="globals/AnalogView" pc="268439062" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="35" lineNum="219" parent="globals/AnalogView" pc="268439085" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="35" lineNum="223" parent="globals/AnalogView" pc="268439134" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="35" lineNum="224" parent="globals/AnalogView" pc="268439150" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="35" lineNum="225" parent="globals/AnalogView" pc="268439172" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="35" lineNum="226" parent="globals/AnalogView" pc="268439184" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="35" lineNum="229" parent="globals/AnalogView" pc="268439206" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="35" lineNum="230" parent="globals/AnalogView" pc="268439213" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="35" lineNum="231" parent="globals/AnalogView" pc="268439219" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="35" lineNum="232" parent="globals/AnalogView" pc="268439238" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="35" lineNum="233" parent="globals/AnalogView" pc="268439264" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="35" lineNum="234" parent="globals/AnalogView" pc="268439295" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="35" lineNum="235" parent="globals/AnalogView" pc="268439311" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="35" lineNum="236" parent="globals/AnalogView" pc="268439340" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="35" lineNum="242" parent="globals/AnalogView" pc="268439372" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="35" lineNum="243" parent="globals/AnalogView" pc="268439379" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="35" lineNum="244" parent="globals/AnalogView" pc="268439394" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="35" lineNum="247" parent="globals/AnalogView" pc="268439407" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="35" lineNum="250" parent="globals/AnalogView" pc="268439427" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="35" lineNum="254" parent="globals/AnalogView" pc="268439447" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="35" lineNum="257" parent="globals/AnalogView" pc="268439458" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="35" lineNum="258" parent="globals/AnalogView" pc="268439499" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="35" lineNum="259" parent="globals/AnalogView" pc="268439516" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="35" lineNum="261" parent="globals/AnalogView" pc="268439545" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="35" lineNum="264" parent="globals/AnalogView" pc="268439553" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="35" lineNum="265" parent="globals/AnalogView" pc="268439567" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="35" lineNum="268" parent="globals/AnalogView" pc="268439575" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="35" lineNum="269" parent="globals/AnalogView" pc="268439592" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="35" lineNum="271" parent="globals/AnalogView" pc="268439615" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="35" lineNum="272" parent="globals/AnalogView" pc="268439624" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="35" lineNum="276" parent="globals/AnalogView" pc="268439677" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="36" lineNum="397" parent="globals/AnalogDelegate" pc="268439686" symbol="initialize"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="36" lineNum="398" parent="globals/AnalogDelegate" pc="268439688" symbol="initialize"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="36" lineNum="399" parent="globals/AnalogDelegate" pc="268439700" symbol="initialize"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="37" lineNum="408" parent="globals/AnalogDelegate" pc="268439710" symbol="onPowerBudgetExceeded"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="37" lineNum="409" parent="globals/AnalogDelegate" pc="268439712" symbol="onPowerBudgetExceeded"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="37" lineNum="410" parent="globals/AnalogDelegate" pc="268439737" symbol="onPowerBudgetExceeded"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogView.mc" id="37" lineNum="411" parent="globals/AnalogDelegate" pc="268439762" symbol="onPowerBudgetExceeded"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogSettingsView.mc" id="38" lineNum="16" parent="globals/AnalogSettingsView" pc="268439775" symbol="initialize"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogSettingsView.mc" id="38" lineNum="17" parent="globals/AnalogSettingsView" pc="268439777" symbol="initialize"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogSettingsView.mc" id="39" lineNum="22" parent="globals/AnalogSettingsView" pc="268439790" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogSettingsView.mc" id="39" lineNum="23" parent="globals/AnalogSettingsView" pc="268439792" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogSettingsView.mc" id="39" lineNum="24" parent="globals/AnalogSettingsView" pc="268439800" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogSettingsView.mc" id="39" lineNum="25" parent="globals/AnalogSettingsView" pc="268439812" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogSettingsView.mc" id="39" lineNum="26" parent="globals/AnalogSettingsView" pc="268439820" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\d_kuc\\Desktop\\Garmin\\Analog\\source\\AnalogSettingsView.mc" id="39" lineNum="28" parent="globals/AnalogSettingsView" pc="268439837" symbol="onUpdate"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry id="8390101" object="true" symbol="BufferedBitmap"/>
+        <entry id="9" object="true" symbol="AnalogSettingsMenu"/>
+        <entry id="6" object="true" symbol="AnalogDelegate"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry field="true" id="20" symbol="&lt;globals/AnalogView/&lt;&gt;_offscreenBuffer&gt;"/>
+        <entry id="28" method="true" symbol="&lt;globals/AnalogView/&lt;&gt;getBoundingBox&gt;"/>
+        <entry id="8390098" method="true" symbol="onPowerBudgetExceeded"/>
+        <entry field="true" id="31" symbol="DoNotDisturbIcon"/>
+        <entry field="true" id="23" symbol="&lt;globals/AnalogView/&lt;&gt;_screenShape&gt;"/>
+        <entry id="8390424" module="true" symbol="Storage"/>
+        <entry field="true" id="8389795" symbol="doNotDisturb"/>
+        <entry id="8388924" module="true" symbol="Gregorian"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry field="true" id="34" symbol="AppName"/>
+        <entry id="24" method="true" symbol="&lt;globals/AnalogView/&lt;&gt;drawBackground&gt;"/>
+        <entry id="5" module="true" symbol="globals/Rez/Strings"/>
+        <entry id="8389080" method="true" symbol="onMenu"/>
+        <entry id="8388772" module="true" object="true" symbol="Fonts"/>
+        <entry field="true" id="18" symbol="&lt;globals/AnalogView/&lt;&gt;_fullScreenRefresh&gt;"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry id="8390097" method="true" symbol="onPartialUpdate"/>
+        <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry id="26" method="true" symbol="&lt;globals/AnalogView/&lt;&gt;drawHashMarks&gt;"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry field="true" id="8389067" symbol="height"/>
+        <entry field="true" id="8389066" symbol="width"/>
+        <entry id="8389122" method="true" symbol="onLayout"/>
+        <entry field="true" id="16" symbol="&lt;globals/AnalogView/&lt;&gt;_dndIcon&gt;"/>
+        <entry id="8389376" method="true" symbol="onEnterSleep"/>
+        <entry field="true" id="30" symbol="&lt;globals/AnalogDelegate/&lt;&gt;_view&gt;"/>
+        <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+        <entry id="8390095" object="true" symbol="WatchFaceDelegate"/>
+        <entry field="true" id="17" symbol="&lt;globals/AnalogView/&lt;&gt;_font&gt;"/>
+        <entry id="7" object="true" symbol="AnalogGoalView"/>
+        <entry id="27" method="true" symbol="&lt;globals/AnalogView/&lt;&gt;generateHandCoordinates&gt;"/>
+        <entry id="8389377" method="true" symbol="onExitSleep"/>
+        <entry id="8388644" module="true" symbol="System"/>
+        <entry id="8389916" method="true" symbol="getGoalView"/>
+        <entry id="8389619" method="true" symbol="onSelect"/>
+        <entry id="8388645" module="true" symbol="Time"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry id="8391770" method="true" symbol="createBufferedBitmap"/>
+        <entry field="true" id="33" symbol="id_font_black_diamond"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry id="8" object="true" symbol="AnalogSettingsDelegate"/>
+        <entry field="true" id="32" symbol="LauncherIcon"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry id="10" object="true" symbol="AnalogSettingsMenuDelegate"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry id="29" method="true" symbol="turnPartialUpdatesOff"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry field="true" id="14" symbol="&lt;globals/AnalogGoalView/&lt;&gt;_goalString&gt;"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry field="true" id="19" symbol="&lt;globals/AnalogView/&lt;&gt;_isAwake&gt;"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry id="8388641" module="true" symbol="Math"/>
+        <entry id="8391703" method="true" symbol="getSettingsView"/>
+        <entry field="true" id="22" symbol="&lt;globals/AnalogView/&lt;&gt;_screenCenterPoint&gt;"/>
+        <entry id="11" object="true" symbol="AnalogSettingsView"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry field="true" id="15" symbol="&lt;globals/AnalogView/&lt;&gt;_dateBuffer&gt;"/>
+        <entry field="true" id="21" symbol="&lt;globals/AnalogView/&lt;&gt;_partialUpdatesAllowed&gt;"/>
+        <entry id="25" method="true" symbol="&lt;globals/AnalogView/&lt;&gt;drawDateString&gt;"/>
+        <entry id="4" module="true" symbol="globals/Rez/Fonts"/>
+        <entry id="12" object="true" symbol="AnalogView"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+        <entry field="true" id="8389642" symbol="title"/>
+        <entry id="13" object="true" symbol="AnalogWatch"/>
+        <entry id="8389660" symbol="palette"/>
+    </symbolTable>
+    <localVars>
+        <entry endPc="268435751" name="view" stackId="1" startPc="268435687"/>
+        <entry endPc="268435751" name="delegate" stackId="2" startPc="268435687"/>
+        <entry arg="true" endPc="268435819" name="goal" stackId="1" startPc="268435786"/>
+        <entry arg="true" endPc="268435902" name="menuItem" stackId="1" startPc="268435853"/>
+        <entry arg="true" endPc="268435913" name="dc" stackId="1" startPc="268435903"/>
+        <entry arg="true" endPc="268436026" name="goal" stackId="1" startPc="268435914"/>
+        <entry arg="true" endPc="268436311" name="dc" stackId="1" startPc="268436027"/>
+        <entry endPc="268436310" name="width" stackId="2" startPc="268436030"/>
+        <entry endPc="268436310" name="height" stackId="3" startPc="268436030"/>
+        <entry endPc="268436310" name="now" stackId="4" startPc="268436030"/>
+        <entry endPc="268436310" name="info" stackId="5" startPc="268436030"/>
+        <entry endPc="268436310" name="dateStr" stackId="6" startPc="268436030"/>
+        <entry endPc="268436646" name="menu" stackId="1" startPc="268436315"/>
+        <entry endPc="268436646" name="boolean" stackId="2" startPc="268436315"/>
+        <entry arg="true" endPc="268436778" name="dc" stackId="1" startPc="268436662"/>
+        <entry arg="true" endPc="268436778" name="x" stackId="2" startPc="268436662"/>
+        <entry arg="true" endPc="268436778" name="y" stackId="3" startPc="268436662"/>
+        <entry endPc="268436777" name="info" stackId="4" startPc="268436665"/>
+        <entry endPc="268436777" name="dateStr" stackId="5" startPc="268436665"/>
+        <entry arg="true" endPc="268437400" name="dc" stackId="1" startPc="268436801"/>
+        <entry endPc="268437399" name="width" stackId="2" startPc="268436804"/>
+        <entry endPc="268437399" name="height" stackId="3" startPc="268436804"/>
+        <entry endPc="268437099" name="outerRad" stackId="4" startPc="268436833"/>
+        <entry endPc="268437099" name="innerRad" stackId="5" startPc="268436833"/>
+        <entry endPc="268437099" name="i" stackId="6" startPc="268436865"/>
+        <entry endPc="268437086" name="sY" stackId="7" startPc="268436865"/>
+        <entry endPc="268437086" name="eY" stackId="8" startPc="268436865"/>
+        <entry endPc="268437086" name="sX" stackId="9" startPc="268436865"/>
+        <entry endPc="268437086" name="eX" stackId="10" startPc="268436865"/>
+        <entry endPc="268437399" name="coords" stackId="11" startPc="268437103"/>
+        <entry endPc="268437399" name="i" stackId="12" startPc="268437152"/>
+        <entry endPc="268437389" name="dx" stackId="13" startPc="268437152"/>
+        <entry endPc="268437389" name="upperX" stackId="14" startPc="268437152"/>
+        <entry arg="true" endPc="268437799" name="dc" stackId="1" startPc="268437401"/>
+        <entry endPc="268437798" name="offscreenBufferOptions" stackId="2" startPc="268437404"/>
+        <entry endPc="268437798" name="dateBufferOptions" stackId="3" startPc="268437404"/>
+        <entry arg="true" endPc="268437981" name="points" stackId="1" startPc="268437800"/>
+        <entry endPc="268437981" name="min" stackId="2" startPc="268437803"/>
+        <entry endPc="268437981" name="max" stackId="3" startPc="268437803"/>
+        <entry endPc="268437966" name="i" stackId="4" startPc="268437833"/>
+        <entry arg="true" endPc="268438202" name="dc" stackId="1" startPc="268437982"/>
+        <entry endPc="268438201" name="clockTime" stackId="2" startPc="268437985"/>
+        <entry endPc="268438198" name="secondHand" stackId="3" startPc="268438029"/>
+        <entry endPc="268438198" name="secondHandPoints" stackId="4" startPc="268438029"/>
+        <entry endPc="268438198" name="curClip" stackId="5" startPc="268438029"/>
+        <entry endPc="268438198" name="bBoxWidth" stackId="6" startPc="268438029"/>
+        <entry endPc="268438198" name="bBoxHeight" stackId="7" startPc="268438029"/>
+        <entry arg="true" endPc="268438450" name="centerPoint" stackId="1" startPc="268438203"/>
+        <entry arg="true" endPc="268438450" name="angle" stackId="2" startPc="268438203"/>
+        <entry arg="true" endPc="268438450" name="handLength" stackId="3" startPc="268438203"/>
+        <entry arg="true" endPc="268438450" name="tailLength" stackId="4" startPc="268438203"/>
+        <entry arg="true" endPc="268438450" name="width" stackId="5" startPc="268438203"/>
+        <entry endPc="268438450" name="coords" stackId="6" startPc="268438206"/>
+        <entry endPc="268438450" name="result" stackId="7" startPc="268438206"/>
+        <entry endPc="268438450" name="cos" stackId="8" startPc="268438206"/>
+        <entry endPc="268438450" name="sin" stackId="9" startPc="268438206"/>
+        <entry endPc="268438447" name="i" stackId="10" startPc="268438348"/>
+        <entry endPc="268438437" name="x" stackId="11" startPc="268438348"/>
+        <entry endPc="268438437" name="y" stackId="12" startPc="268438348"/>
+        <entry arg="true" endPc="268438555" name="dc" stackId="1" startPc="268438451"/>
+        <entry endPc="268438554" name="width" stackId="2" startPc="268438454"/>
+        <entry endPc="268438554" name="height" stackId="3" startPc="268438454"/>
+        <entry arg="true" endPc="268439685" name="dc" stackId="1" startPc="268438645"/>
+        <entry endPc="268439684" name="clockTime" stackId="2" startPc="268438648"/>
+        <entry endPc="268439684" name="targetDc" stackId="3" startPc="268438648"/>
+        <entry endPc="268439684" name="width" stackId="4" startPc="268438648"/>
+        <entry endPc="268439684" name="height" stackId="5" startPc="268438648"/>
+        <entry endPc="268439049" name="hourHandAngle" stackId="6" startPc="268438960"/>
+        <entry endPc="268439130" name="minuteHandAngle" stackId="7" startPc="268439062"/>
+        <entry endPc="268439684" name="font" stackId="8" startPc="268438648"/>
+        <entry endPc="268439684" name="offscreenBuffer" stackId="9" startPc="268438648"/>
+        <entry endPc="268439443" name="dateDc" stackId="10" startPc="268439394"/>
+        <entry endPc="268439684" name="dataString" stackId="11" startPc="268438648"/>
+        <entry endPc="268439673" name="secondHand" stackId="12" startPc="268439575"/>
+        <entry arg="true" endPc="268439709" name="view" stackId="1" startPc="268439686"/>
+        <entry arg="true" endPc="268439774" name="powerInfo" stackId="1" startPc="268439710"/>
+        <entry arg="true" endPc="268439879" name="dc" stackId="1" startPc="268439790"/>
+    </localVars>
+    <deviceInfo deviceVersion="36c73ca113ce33444fcd6a0b73c4d45dbc90939b" partNumber="006-B4536-00"/>
+    <annotations>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="DoNotDisturbIcon"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="id_font_black_diamond"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="58" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/AnalogSettingsMenu" offset="170" parentId="globals" symbolId="AnalogSettingsMenu" type="class"/>
+        <dataEntry label="globals/AnalogWatch" offset="214" parentId="globals" symbolId="AnalogWatch" type="class"/>
+        <dataEntry label="globals/Rez" offset="303" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/AnalogSettingsMenuDelegate" offset="356" parentId="globals" symbolId="AnalogSettingsMenuDelegate" type="class"/>
+        <dataEntry label="globals/AnalogGoalView" offset="409" parentId="globals" symbolId="AnalogGoalView" type="class"/>
+        <dataEntry label="globals/AnalogSettingsDelegate" offset="480" parentId="globals" symbolId="AnalogSettingsDelegate" type="class"/>
+        <dataEntry label="globals/AnalogView" offset="533" parentId="globals" symbolId="AnalogView" type="class"/>
+        <dataEntry label="globals/AnalogDelegate" offset="757" parentId="globals" symbolId="AnalogDelegate" type="class"/>
+        <dataEntry label="globals/AnalogSettingsView" offset="819" parentId="globals" symbolId="AnalogSettingsView" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="872" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Fonts" offset="916" parentId="Rez" symbolId="Fonts" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="951" parentId="Rez" symbolId="Strings" type="module"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" endPc="268435471" name="&lt;init&gt;" parent="AnalogSettingsMenu" startPc="268435460">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435483" name="&lt;init&gt;" parent="AnalogWatch" startPc="268435472">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435503" name="&lt;init&gt;" parent="Rez" startPc="268435484">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435515" name="&lt;init&gt;" parent="AnalogSettingsMenuDelegate" startPc="268435504">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435527" name="&lt;init&gt;" parent="AnalogGoalView" startPc="268435516">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435539" name="&lt;init&gt;" parent="AnalogSettingsDelegate" startPc="268435528">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435551" name="&lt;init&gt;" parent="AnalogView" startPc="268435540">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435563" name="&lt;init&gt;" parent="AnalogDelegate" startPc="268435552">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435575" name="&lt;init&gt;" parent="AnalogSettingsView" startPc="268435564">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435608" name="initialize" parent="AnalogSettingsMenu" startPc="268435576">
+            <documentation><![CDATA[<div class="description"> Constructor<br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435611" name="onStart" parent="AnalogWatch" startPc="268435609">
+            <param id="state"/>
+            <documentation><![CDATA[<div class="description"> Handle app startup<br/> <div class="param"> state Startup arguments</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435668" name="getSettingsView" parent="AnalogWatch" startPc="268435612">
+            <documentation><![CDATA[<div class="description"> Return the settings view and delegate<br/> <div class="returns">Returns  Array Pair [View, Delegate]</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435785" name="getInitialView" parent="AnalogWatch" startPc="268435669">
+            <documentation><![CDATA[<div class="description"> Return the initial view for the app<br/> <div class="returns">Returns  Array Pair [View, Delegate] or Array [View]</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435819" name="getGoalView" parent="AnalogWatch" startPc="268435786">
+            <param id="goal"/>
+            <documentation><![CDATA[<div class="description"> This method runs when a goal is triggered and the goal view is started.<br/> <div class="param"> goal The goal type that triggered</div><br/> <div class="returns">Returns  The view to push</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435834" name="initialize" parent="AnalogWatch" startPc="268435820">
+            <documentation><![CDATA[<div class="description"> Constructor<br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435837" name="onStop" parent="AnalogWatch" startPc="268435835">
+            <param id="state"/>
+            <documentation><![CDATA[<div class="description"> Handle app shutdown<br/> <div class="param"> state Shutdown arguments</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Fonts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435852" name="initialize" parent="AnalogSettingsMenuDelegate" startPc="268435838">
+            <documentation><![CDATA[<div class="description"> Constructor<br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435902" name="onSelect" parent="AnalogSettingsMenuDelegate" startPc="268435853">
+            <param id="menuItem"/>
+            <documentation><![CDATA[<div class="description"> Handle a menu item being selected<br/> <div class="param"> menuItem The menu item selected</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435913" name="onLayout" parent="AnalogGoalView" startPc="268435903">
+            <param id="dc"/>
+            <documentation><![CDATA[<div class="description"> Load your resources here<br/> <div class="param"> dc Device context</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436026" name="initialize" parent="AnalogGoalView" startPc="268435914">
+            <param id="goal"/>
+            <documentation><![CDATA[<div class="description"> Initialize the string to display on the goal view.<br/> <div class="param"> goal The goal triggered</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436311" name="onUpdate" parent="AnalogGoalView" startPc="268436027">
+            <param id="dc"/>
+            <documentation><![CDATA[<div class="description"> Update the clock face graphics<br/> <div class="param"> dc Device Context</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436646" name="onMenu" parent="AnalogSettingsDelegate" startPc="268436312">
+            <documentation><![CDATA[<div class="description"> Handle the menu event<br/> <div class="returns">Returns  true if handled, false otherwise</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436661" name="initialize" parent="AnalogSettingsDelegate" startPc="268436647">
+            <documentation><![CDATA[<div class="description"> Constructor<br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268436778" name="&lt;globals/AnalogView/&lt;&gt;drawDateString&gt;" parent="AnalogView" startPc="268436662">
+            <param id="dc"/>
+            <param id="x"/>
+            <param id="y"/>
+            <documentation><![CDATA[<div class="description"> Draw the date string into the provided buffer at the specified location<br/> <div class="param"> dc Device context</div><br/> <div class="param"> x The x location of the text</div><br/> <div class="param"> y The y location of the text</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436789" name="onExitSleep" parent="AnalogView" startPc="268436779">
+            <documentation><![CDATA[<div class="description"> This method is called when the device exits sleep mode.<br/> Set the isAwake flag to let onUpdate know it should render the second hand.<br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436800" name="turnPartialUpdatesOff" parent="AnalogView" startPc="268436790">
+            <documentation><![CDATA[<div class="description"> Turn off partial updates<br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268437400" name="&lt;globals/AnalogView/&lt;&gt;drawHashMarks&gt;" parent="AnalogView" startPc="268436801">
+            <param id="dc"/>
+            <documentation><![CDATA[<div class="description"> Draws the clock tick marks around the outside edges of the screen.<br/> <div class="param"> dc Device context</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437799" name="onLayout" parent="AnalogView" startPc="268437401">
+            <param id="dc"/>
+            <documentation><![CDATA[<div class="description"> Configure the layout of the watchface for this device<br/> <div class="param"> dc Device context</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268437981" name="&lt;globals/AnalogView/&lt;&gt;getBoundingBox&gt;" parent="AnalogView" startPc="268437800">
+            <param id="points"/>
+            <documentation><![CDATA[<div class="description"> Compute a bounding box from the passed in points<br/> <div class="param"> points Points to include in bounding box</div><br/> <div class="returns">Returns  The bounding box points</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438202" name="onPartialUpdate" parent="AnalogView" startPc="268437982">
+            <param id="dc"/>
+            <documentation><![CDATA[<div class="description"> Handle the partial update event<br/> <div class="param"> dc Device context</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268438450" name="&lt;globals/AnalogView/&lt;&gt;generateHandCoordinates&gt;" parent="AnalogView" startPc="268438203">
+            <param id="centerPoint"/>
+            <param id="angle"/>
+            <param id="handLength"/>
+            <param id="tailLength"/>
+            <param id="width"/>
+            <documentation><![CDATA[<div class="description"> This function is used to generate the coordinates of the 4 corners of the polygon<br/> used to draw a watch hand. The coordinates are generated with specified length,<br/> tail length, and width and rotated around the center point at the provided angle.<br/> 0 degrees is at the 12 o'clock position, and increases in the clockwise direction.<br/> <div class="param"> centerPoint The center of the clock</div><br/> <div class="param"> angle Angle of the hand in radians</div><br/> <div class="param"> handLength The length of the hand from the center to point</div><br/> <div class="param"> tailLength The length of the tail of the hand</div><br/> <div class="param"> width The width of the watch hand</div><br/> <div class="returns">Returns  The coordinates of the watch hand</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268438555" name="&lt;globals/AnalogView/&lt;&gt;drawBackground&gt;" parent="AnalogView" startPc="268438451">
+            <param id="dc"/>
+            <documentation><![CDATA[<div class="description"> Draw the watch face background<br/> onUpdate uses this method to transfer newly rendered Buffered Bitmaps<br/> to the main display.<br/> onPartialUpdate uses this to blank the second hand from the previous<br/> second before outputting the new one.<br/> <div class="param"> dc Device context</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438577" name="onEnterSleep" parent="AnalogView" startPc="268438556">
+            <documentation><![CDATA[<div class="description"> This method is called when the device re-enters sleep mode.<br/> Set the isAwake flag to let onUpdate know it should stop rendering the second hand.<br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438644" name="initialize" parent="AnalogView" startPc="268438578">
+            <documentation><![CDATA[<div class="description"> Initialize variables for this view<br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439685" name="onUpdate" parent="AnalogView" startPc="268438645">
+            <param id="dc"/>
+            <documentation><![CDATA[<div class="description"> Handle the update event<br/> <div class="param"> dc Device context</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439709" name="initialize" parent="AnalogDelegate" startPc="268439686">
+            <param id="view"/>
+            <documentation><![CDATA[<div class="description"> Constructor<br/> <div class="param"> view The analog view</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439774" name="onPowerBudgetExceeded" parent="AnalogDelegate" startPc="268439710">
+            <param id="powerInfo"/>
+            <documentation><![CDATA[<div class="description"> The onPowerBudgetExceeded callback is called by the system if the<br/> onPartialUpdate method exceeds the allowed power budget. If this occurs,<br/> the system will stop invoking onPartialUpdate each second, so we notify the<br/> view here to let the rendering methods know they should not be rendering a<br/> second hand.<br/> <div class="param"> powerInfo Information about the power budget</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439789" name="initialize" parent="AnalogSettingsView" startPc="268439775">
+            <documentation><![CDATA[<div class="description"> Constructor<br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439879" name="onUpdate" parent="AnalogSettingsView" startPc="268439790">
+            <param id="dc"/>
+            <documentation><![CDATA[<div class="description"> Handle the update event<br/> <div class="param"> dc Device context</div><br/></div>]]></documentation>
+        </functionEntry>
+    </functions>
+</debugInfo>
