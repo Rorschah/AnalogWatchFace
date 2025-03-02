@@ -900,513 +900,458 @@ C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_174_8_181_8_if_end:
         %tmp.39 = getv function %tmp.38 :getHeight;
         %tmp.40 = invoke %tmp.38 %tmp.39();
         invoke %tmp.31 %tmp.32(%tmp.33, %tmp.34, %tmp.37, %tmp.40);
-[ "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogView.mc" 191 8 ]
-        %tmp.41 = lgetv %targetDc.2;
-        %tmp.42 = getv function %tmp.41 :setColor;
-        %tmp.43 = getm $.Toybox.Graphics;
-        %tmp.44 = getv %tmp.43 :COLOR_DK_GRAY;
-        %tmp.45 = getm $.Toybox.Graphics;
-        %tmp.46 = getv %tmp.45 :COLOR_DK_GRAY;
-        invoke %tmp.41 %tmp.42(%tmp.44, %tmp.46);
-[ "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogView.mc" 192 8 ]
-        %tmp.47 = lgetv %targetDc.2;
-        %tmp.48 = getv function %tmp.47 :fillPolygon;
-        %tmp.49 = newa 4;
-        %tmp.50 = newa 2;
-        %tmp.51 = 0;
-        %tmp.52 = dup %tmp.50;
-        %tmp.53 = aputv %tmp.52 0 %tmp.51;
-        %tmp.54 = 0;
-        %tmp.55 = dup %tmp.53;
-        %tmp.56 = aputv %tmp.55 1 %tmp.54;
-        %tmp.57 = dup %tmp.49;
-        %tmp.58 = aputv %tmp.57 0 %tmp.56;
-        %tmp.59 = newa 2;
-        %tmp.60 = lgetv %targetDc.2;
-        %tmp.61 = getv function %tmp.60 :getWidth;
-        %tmp.62 = invoke %tmp.60 %tmp.61();
-        %tmp.63 = dup %tmp.59;
-        %tmp.64 = aputv %tmp.63 0 %tmp.62;
-        %tmp.65 = 0;
-        %tmp.66 = dup %tmp.64;
-        %tmp.67 = aputv %tmp.66 1 %tmp.65;
-        %tmp.68 = dup %tmp.58;
-        %tmp.69 = aputv %tmp.68 1 %tmp.67;
-        %tmp.70 = newa 2;
-        %tmp.71 = lgetv %targetDc.2;
-        %tmp.72 = getv function %tmp.71 :getWidth;
-        %tmp.73 = invoke %tmp.71 %tmp.72();
-        %tmp.74 = dup %tmp.70;
-        %tmp.75 = aputv %tmp.74 0 %tmp.73;
-        %tmp.76 = lgetv %targetDc.2;
-        %tmp.77 = getv function %tmp.76 :getHeight;
-        %tmp.78 = invoke %tmp.76 %tmp.77();
-        %tmp.79 = dup %tmp.75;
-        %tmp.80 = aputv %tmp.79 1 %tmp.78;
-        %tmp.81 = dup %tmp.69;
-        %tmp.82 = aputv %tmp.81 2 %tmp.80;
-        %tmp.83 = newa 2;
-        %tmp.84 = 0;
-        %tmp.85 = dup %tmp.83;
-        %tmp.86 = aputv %tmp.85 0 %tmp.84;
-        %tmp.87 = 0;
-        %tmp.88 = dup %tmp.86;
-        %tmp.89 = aputv %tmp.88 1 %tmp.87;
-        %tmp.90 = dup %tmp.82;
-        %tmp.91 = aputv %tmp.90 3 %tmp.89;
-        invoke %tmp.47 %tmp.48(%tmp.91);
 [ "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogView.mc" 198 8 ]
-        %tmp.92 = self;
-        %tmp.93 = getv function %tmp.92 :drawHashMarks;
-        %tmp.95 = lgetv %targetDc.2;
-        invoke %tmp.92 %tmp.93(%tmp.95);
+        %tmp.41 = self;
+        %tmp.42 = getv function %tmp.41 :drawHashMarks;
+        %tmp.44 = lgetv %targetDc.2;
+        invoke %tmp.41 %tmp.42(%tmp.44);
 [ "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogView.mc" 201 8 ]
 C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_201_8_203_8_if_stmt:
 C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_201_12_201_72_begin:
-        %tmp.96 = getm $.Toybox.System;
-        %tmp.97 = getv function %tmp.96 :getDeviceSettings;
-        %tmp.98 = invoke %tmp.96 %tmp.97();
-        %tmp.99 = getv %tmp.98 :doNotDisturb;
-        bf %tmp.99 @C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_201_8_203_8_if_end;
+        %tmp.45 = getm $.Toybox.System;
+        %tmp.46 = getv function %tmp.45 :getDeviceSettings;
+        %tmp.47 = invoke %tmp.45 %tmp.46();
+        %tmp.48 = getv %tmp.47 :doNotDisturb;
+        bf %tmp.48 @C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_201_8_203_8_if_end;
 C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_201_55_201_72_true:
-        %tmp.100 = null;
-        %tmp.102 = getv ? :_dndIcon;
-        %tmp.103 = ne %tmp.100 %tmp.102;
-        push %tmp.103;
+        %tmp.49 = null;
+        %tmp.51 = getv ? :_dndIcon;
+        %tmp.52 = ne %tmp.49 %tmp.51;
+        push %tmp.52;
 C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_201_55_201_72_end:
-        %tmp.104 = phi [%tmp.99 @C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_201_12_201_72_begin] [%tmp.103 @C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_201_55_201_72_true] [%tmp.104 @C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_201_55_201_72_end];
-        bf %tmp.104 @C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_201_8_203_8_if_end;
+        %tmp.53 = phi [%tmp.48 @C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_201_12_201_72_begin] [%tmp.52 @C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_201_55_201_72_true] [%tmp.53 @C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_201_55_201_72_end];
+        bf %tmp.53 @C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_201_8_203_8_if_end;
 C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_201_8_203_8_if_true:
 C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_201_75_203_8_start:
 [ "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogView.mc" 202 12 ]
-        %tmp.105 = lgetv %targetDc.2;
-        %tmp.106 = getv function %tmp.105 :drawBitmap;
-        %tmp.108 = lgetv %width.3;
-        %tmp.109 = 0.75;
-        %tmp.110 = mul %tmp.108 %tmp.109;
-        %tmp.112 = lgetv %height.4;
-        %tmp.113 = 2;
-        %tmp.114 = div %tmp.112 %tmp.113;
-        %tmp.115 = 15;
-        %tmp.116 = sub %tmp.114 %tmp.115;
-        %tmp.118 = getv ? :_dndIcon;
-        %tmp.119 = as %tmp.118 { (!Null) };
-        invoke %tmp.105 %tmp.106(%tmp.110, %tmp.116, %tmp.119);
+        %tmp.54 = lgetv %targetDc.2;
+        %tmp.55 = getv function %tmp.54 :drawBitmap;
+        %tmp.57 = lgetv %width.3;
+        %tmp.58 = 0.75;
+        %tmp.59 = mul %tmp.57 %tmp.58;
+        %tmp.61 = lgetv %height.4;
+        %tmp.62 = 2;
+        %tmp.63 = div %tmp.61 %tmp.62;
+        %tmp.64 = 15;
+        %tmp.65 = sub %tmp.63 %tmp.64;
+        %tmp.67 = getv ? :_dndIcon;
+        %tmp.68 = as %tmp.67 { (!Null) };
+        invoke %tmp.54 %tmp.55(%tmp.59, %tmp.65, %tmp.68);
 C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_201_75_203_8_stop:
         goto @C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_201_8_203_8_if_end;
 C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_201_8_203_8_if_end:
 [ "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogView.mc" 206 8 ]
-        %tmp.120 = lgetv %targetDc.2;
-        %tmp.121 = getv function %tmp.120 :setColor;
-        %tmp.122 = getm $.Toybox.Graphics;
-        %tmp.123 = getv %tmp.122 :COLOR_WHITE;
-        %tmp.124 = getm $.Toybox.Graphics;
-        %tmp.125 = getv %tmp.124 :COLOR_TRANSPARENT;
-        invoke %tmp.120 %tmp.121(%tmp.123, %tmp.125);
+        %tmp.69 = lgetv %targetDc.2;
+        %tmp.70 = getv function %tmp.69 :setColor;
+        %tmp.71 = getm $.Toybox.Graphics;
+        %tmp.72 = getv %tmp.71 :COLOR_WHITE;
+        %tmp.73 = getm $.Toybox.Graphics;
+        %tmp.74 = getv %tmp.73 :COLOR_TRANSPARENT;
+        invoke %tmp.69 %tmp.70(%tmp.72, %tmp.74);
 [ "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogView.mc" 208 8 ]
 C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_208_8_214_8_if_stmt:
-        %tmp.127 = getv ? :_screenCenterPoint;
-        %tmp.128 = null;
-        %tmp.129 = ne %tmp.127 %tmp.128;
-        bf %tmp.129 @C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_208_8_214_8_if_end;
+        %tmp.76 = getv ? :_screenCenterPoint;
+        %tmp.77 = null;
+        %tmp.78 = ne %tmp.76 %tmp.77;
+        bf %tmp.78 @C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_208_8_214_8_if_end;
 C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_208_8_214_8_if_true:
 C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_208_40_214_8_start:
 [ "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogView.mc" 210 12 ]
         [ "C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_208_40_214_8_start" "C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_208_40_214_8_stop" ]
         %hourHandAngle.5 = local;
-        %tmp.130 = lgetv %clockTime.1;
-        %tmp.131 = getv %tmp.130 :hour;
-        %tmp.132 = 12;
-        %tmp.133 = mod %tmp.131 %tmp.132;
-        %tmp.134 = 60;
-        %tmp.135 = mul %tmp.133 %tmp.134;
-        %tmp.136 = lgetv %clockTime.1;
-        %tmp.137 = getv %tmp.136 :min;
-        %tmp.138 = add %tmp.135 %tmp.137;
-        lputv %hourHandAngle.5 %tmp.138;
+        %tmp.79 = lgetv %clockTime.1;
+        %tmp.80 = getv %tmp.79 :hour;
+        %tmp.81 = 12;
+        %tmp.82 = mod %tmp.80 %tmp.81;
+        %tmp.83 = 60;
+        %tmp.84 = mul %tmp.82 %tmp.83;
+        %tmp.85 = lgetv %clockTime.1;
+        %tmp.86 = getv %tmp.85 :min;
+        %tmp.87 = add %tmp.84 %tmp.86;
+        lputv %hourHandAngle.5 %tmp.87;
 [ "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogView.mc" 211 12 ]
-        %tmp.140 = lgetv %hourHandAngle.5;
-        %tmp.141 = 12;
-        %tmp.142 = 60.0;
-        %tmp.143 = mul %tmp.141 %tmp.142;
-        %tmp.144 = div %tmp.140 %tmp.143;
-        lputv %hourHandAngle.5 %tmp.144;
+        %tmp.89 = lgetv %hourHandAngle.5;
+        %tmp.90 = 12;
+        %tmp.91 = 60.0;
+        %tmp.92 = mul %tmp.90 %tmp.91;
+        %tmp.93 = div %tmp.89 %tmp.92;
+        lputv %hourHandAngle.5 %tmp.93;
 [ "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogView.mc" 212 12 ]
-        %tmp.146 = lgetv %hourHandAngle.5;
-        %tmp.147 = getm $.Toybox.Math;
-        %tmp.148 = getv %tmp.147 :PI;
-        %tmp.149 = mul %tmp.146 %tmp.148;
-        %tmp.150 = 2;
-        %tmp.151 = mul %tmp.149 %tmp.150;
-        lputv %hourHandAngle.5 %tmp.151;
+        %tmp.95 = lgetv %hourHandAngle.5;
+        %tmp.96 = getm $.Toybox.Math;
+        %tmp.97 = getv %tmp.96 :PI;
+        %tmp.98 = mul %tmp.95 %tmp.97;
+        %tmp.99 = 2;
+        %tmp.100 = mul %tmp.98 %tmp.99;
+        lputv %hourHandAngle.5 %tmp.100;
 [ "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogView.mc" 213 12 ]
-        %tmp.152 = lgetv %targetDc.2;
-        %tmp.153 = getv function %tmp.152 :fillPolygon;
-        %tmp.154 = self;
-        %tmp.155 = getv function %tmp.154 :generateHandCoordinates;
-        %tmp.157 = getv ? :_screenCenterPoint;
-        %tmp.158 = as %tmp.157 { (!Null) };
-        %tmp.160 = lgetv %hourHandAngle.5;
-        %tmp.161 = lgetv %dc;
-        %tmp.162 = getv function %tmp.161 :getHeight;
-        %tmp.163 = invoke %tmp.161 %tmp.162();
-        %tmp.164 = 6;
-        %tmp.165 = div %tmp.163 %tmp.164;
-        %tmp.166 = 0;
-        %tmp.167 = lgetv %dc;
-        %tmp.168 = getv function %tmp.167 :getWidth;
-        %tmp.169 = invoke %tmp.167 %tmp.168();
-        %tmp.170 = 60;
-        %tmp.171 = div %tmp.169 %tmp.170;
-        %tmp.172 = invoke %tmp.154 %tmp.155(%tmp.158, %tmp.160, %tmp.165, %tmp.166, %tmp.171);
-        invoke %tmp.152 %tmp.153(%tmp.172);
+        %tmp.101 = lgetv %targetDc.2;
+        %tmp.102 = getv function %tmp.101 :fillPolygon;
+        %tmp.103 = self;
+        %tmp.104 = getv function %tmp.103 :generateHandCoordinates;
+        %tmp.106 = getv ? :_screenCenterPoint;
+        %tmp.107 = as %tmp.106 { (!Null) };
+        %tmp.109 = lgetv %hourHandAngle.5;
+        %tmp.110 = lgetv %dc;
+        %tmp.111 = getv function %tmp.110 :getHeight;
+        %tmp.112 = invoke %tmp.110 %tmp.111();
+        %tmp.113 = 6;
+        %tmp.114 = div %tmp.112 %tmp.113;
+        %tmp.115 = 0;
+        %tmp.116 = lgetv %dc;
+        %tmp.117 = getv function %tmp.116 :getWidth;
+        %tmp.118 = invoke %tmp.116 %tmp.117();
+        %tmp.119 = 60;
+        %tmp.120 = div %tmp.118 %tmp.119;
+        %tmp.121 = invoke %tmp.103 %tmp.104(%tmp.107, %tmp.109, %tmp.114, %tmp.115, %tmp.120);
+        invoke %tmp.101 %tmp.102(%tmp.121);
 C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_208_40_214_8_stop:
         goto @C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_208_8_214_8_if_end;
 C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_208_8_214_8_if_end:
 [ "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogView.mc" 216 8 ]
 C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_216_8_220_8_if_stmt:
-        %tmp.174 = getv ? :_screenCenterPoint;
-        %tmp.175 = null;
-        %tmp.176 = ne %tmp.174 %tmp.175;
-        bf %tmp.176 @C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_216_8_220_8_if_end;
+        %tmp.123 = getv ? :_screenCenterPoint;
+        %tmp.124 = null;
+        %tmp.125 = ne %tmp.123 %tmp.124;
+        bf %tmp.125 @C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_216_8_220_8_if_end;
 C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_216_8_220_8_if_true:
 C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_216_40_220_8_start:
 [ "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogView.mc" 218 12 ]
         [ "C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_216_40_220_8_start" "C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_216_40_220_8_stop" ]
         %minuteHandAngle.6 = local;
-        %tmp.177 = lgetv %clockTime.1;
-        %tmp.178 = getv %tmp.177 :min;
-        %tmp.179 = 60.0;
-        %tmp.180 = div %tmp.178 %tmp.179;
-        %tmp.181 = getm $.Toybox.Math;
-        %tmp.182 = getv %tmp.181 :PI;
-        %tmp.183 = mul %tmp.180 %tmp.182;
-        %tmp.184 = 2;
-        %tmp.185 = mul %tmp.183 %tmp.184;
-        lputv %minuteHandAngle.6 %tmp.185;
+        %tmp.126 = lgetv %clockTime.1;
+        %tmp.127 = getv %tmp.126 :min;
+        %tmp.128 = 60.0;
+        %tmp.129 = div %tmp.127 %tmp.128;
+        %tmp.130 = getm $.Toybox.Math;
+        %tmp.131 = getv %tmp.130 :PI;
+        %tmp.132 = mul %tmp.129 %tmp.131;
+        %tmp.133 = 2;
+        %tmp.134 = mul %tmp.132 %tmp.133;
+        lputv %minuteHandAngle.6 %tmp.134;
 [ "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogView.mc" 219 12 ]
-        %tmp.186 = lgetv %targetDc.2;
-        %tmp.187 = getv function %tmp.186 :fillPolygon;
-        %tmp.188 = self;
-        %tmp.189 = getv function %tmp.188 :generateHandCoordinates;
-        %tmp.191 = getv ? :_screenCenterPoint;
-        %tmp.192 = as %tmp.191 { (!Null) };
-        %tmp.194 = lgetv %minuteHandAngle.6;
-        %tmp.195 = lgetv %dc;
-        %tmp.196 = getv function %tmp.195 :getHeight;
-        %tmp.197 = invoke %tmp.195 %tmp.196();
-        %tmp.198 = 3;
-        %tmp.199 = div %tmp.197 %tmp.198;
-        %tmp.200 = 0;
-        %tmp.201 = lgetv %dc;
-        %tmp.202 = getv function %tmp.201 :getWidth;
-        %tmp.203 = invoke %tmp.201 %tmp.202();
-        %tmp.204 = 90;
-        %tmp.205 = div %tmp.203 %tmp.204;
-        %tmp.206 = invoke %tmp.188 %tmp.189(%tmp.192, %tmp.194, %tmp.199, %tmp.200, %tmp.205);
-        invoke %tmp.186 %tmp.187(%tmp.206);
+        %tmp.135 = lgetv %targetDc.2;
+        %tmp.136 = getv function %tmp.135 :fillPolygon;
+        %tmp.137 = self;
+        %tmp.138 = getv function %tmp.137 :generateHandCoordinates;
+        %tmp.140 = getv ? :_screenCenterPoint;
+        %tmp.141 = as %tmp.140 { (!Null) };
+        %tmp.143 = lgetv %minuteHandAngle.6;
+        %tmp.144 = lgetv %dc;
+        %tmp.145 = getv function %tmp.144 :getHeight;
+        %tmp.146 = invoke %tmp.144 %tmp.145();
+        %tmp.147 = 3;
+        %tmp.148 = div %tmp.146 %tmp.147;
+        %tmp.149 = 0;
+        %tmp.150 = lgetv %dc;
+        %tmp.151 = getv function %tmp.150 :getWidth;
+        %tmp.152 = invoke %tmp.150 %tmp.151();
+        %tmp.153 = 90;
+        %tmp.154 = div %tmp.152 %tmp.153;
+        %tmp.155 = invoke %tmp.137 %tmp.138(%tmp.141, %tmp.143, %tmp.148, %tmp.149, %tmp.154);
+        invoke %tmp.135 %tmp.136(%tmp.155);
 C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_216_40_220_8_stop:
         goto @C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_216_8_220_8_if_end;
 C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_216_8_220_8_if_end:
 [ "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogView.mc" 223 8 ]
-        %tmp.207 = lgetv %targetDc.2;
-        %tmp.208 = getv function %tmp.207 :setColor;
-        %tmp.209 = getm $.Toybox.Graphics;
-        %tmp.210 = getv %tmp.209 :COLOR_LT_GRAY;
-        %tmp.211 = getm $.Toybox.Graphics;
-        %tmp.212 = getv %tmp.211 :COLOR_BLACK;
-        invoke %tmp.207 %tmp.208(%tmp.210, %tmp.212);
+        %tmp.156 = lgetv %targetDc.2;
+        %tmp.157 = getv function %tmp.156 :setColor;
+        %tmp.158 = getm $.Toybox.Graphics;
+        %tmp.159 = getv %tmp.158 :COLOR_LT_GRAY;
+        %tmp.160 = getm $.Toybox.Graphics;
+        %tmp.161 = getv %tmp.160 :COLOR_BLACK;
+        invoke %tmp.156 %tmp.157(%tmp.159, %tmp.161);
 [ "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogView.mc" 224 8 ]
-        %tmp.213 = lgetv %targetDc.2;
-        %tmp.214 = getv function %tmp.213 :fillCircle;
-        %tmp.216 = lgetv %width.3;
-        %tmp.217 = 2;
-        %tmp.218 = div %tmp.216 %tmp.217;
-        %tmp.220 = lgetv %height.4;
-        %tmp.221 = 2;
-        %tmp.222 = div %tmp.220 %tmp.221;
-        %tmp.223 = 7;
-        invoke %tmp.213 %tmp.214(%tmp.218, %tmp.222, %tmp.223);
+        %tmp.162 = lgetv %targetDc.2;
+        %tmp.163 = getv function %tmp.162 :fillCircle;
+        %tmp.165 = lgetv %width.3;
+        %tmp.166 = 2;
+        %tmp.167 = div %tmp.165 %tmp.166;
+        %tmp.169 = lgetv %height.4;
+        %tmp.170 = 2;
+        %tmp.171 = div %tmp.169 %tmp.170;
+        %tmp.172 = 7;
+        invoke %tmp.162 %tmp.163(%tmp.167, %tmp.171, %tmp.172);
 [ "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogView.mc" 225 8 ]
-        %tmp.224 = lgetv %targetDc.2;
-        %tmp.225 = getv function %tmp.224 :setColor;
-        %tmp.226 = getm $.Toybox.Graphics;
-        %tmp.227 = getv %tmp.226 :COLOR_BLACK;
-        %tmp.228 = getm $.Toybox.Graphics;
-        %tmp.229 = getv %tmp.228 :COLOR_BLACK;
-        invoke %tmp.224 %tmp.225(%tmp.227, %tmp.229);
+        %tmp.173 = lgetv %targetDc.2;
+        %tmp.174 = getv function %tmp.173 :setColor;
+        %tmp.175 = getm $.Toybox.Graphics;
+        %tmp.176 = getv %tmp.175 :COLOR_BLACK;
+        %tmp.177 = getm $.Toybox.Graphics;
+        %tmp.178 = getv %tmp.177 :COLOR_BLACK;
+        invoke %tmp.173 %tmp.174(%tmp.176, %tmp.178);
 [ "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogView.mc" 226 8 ]
-        %tmp.230 = lgetv %targetDc.2;
-        %tmp.231 = getv function %tmp.230 :drawCircle;
-        %tmp.233 = lgetv %width.3;
-        %tmp.234 = 2;
-        %tmp.235 = div %tmp.233 %tmp.234;
-        %tmp.237 = lgetv %height.4;
-        %tmp.238 = 2;
-        %tmp.239 = div %tmp.237 %tmp.238;
-        %tmp.240 = 7;
-        invoke %tmp.230 %tmp.231(%tmp.235, %tmp.239, %tmp.240);
+        %tmp.179 = lgetv %targetDc.2;
+        %tmp.180 = getv function %tmp.179 :drawCircle;
+        %tmp.182 = lgetv %width.3;
+        %tmp.183 = 2;
+        %tmp.184 = div %tmp.182 %tmp.183;
+        %tmp.186 = lgetv %height.4;
+        %tmp.187 = 2;
+        %tmp.188 = div %tmp.186 %tmp.187;
+        %tmp.189 = 7;
+        invoke %tmp.179 %tmp.180(%tmp.184, %tmp.188, %tmp.189);
 [ "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogView.mc" 229 8 ]
         [ "C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_168_47_277_4_start" "C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_168_47_277_4_stop" ]
         %font.7 = local;
-        %tmp.242 = getv ? :_font;
-        lputv %font.7 %tmp.242;
+        %tmp.191 = getv ? :_font;
+        lputv %font.7 %tmp.191;
 [ "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogView.mc" 230 8 ]
 C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_230_8_237_8_if_stmt:
-        %tmp.244 = lgetv %font.7;
-        %tmp.245 = null;
-        %tmp.246 = ne %tmp.244 %tmp.245;
-        bf %tmp.246 @C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_230_8_237_8_if_end;
+        %tmp.193 = lgetv %font.7;
+        %tmp.194 = null;
+        %tmp.195 = ne %tmp.193 %tmp.194;
+        bf %tmp.195 @C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_230_8_237_8_if_end;
 C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_230_8_237_8_if_true:
 C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_230_26_237_8_start:
 [ "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogView.mc" 231 12 ]
-        %tmp.247 = lgetv %targetDc.2;
-        %tmp.248 = getv function %tmp.247 :setColor;
-        %tmp.249 = getm $.Toybox.Graphics;
-        %tmp.250 = getv %tmp.249 :COLOR_WHITE;
-        %tmp.251 = getm $.Toybox.Graphics;
-        %tmp.252 = getv %tmp.251 :COLOR_DK_GRAY;
-        invoke %tmp.247 %tmp.248(%tmp.250, %tmp.252);
+        %tmp.196 = lgetv %targetDc.2;
+        %tmp.197 = getv function %tmp.196 :setColor;
+        %tmp.198 = getm $.Toybox.Graphics;
+        %tmp.199 = getv %tmp.198 :COLOR_WHITE;
+        %tmp.200 = getm $.Toybox.Graphics;
+        %tmp.201 = getv %tmp.200 :COLOR_BLACK;
+        invoke %tmp.196 %tmp.197(%tmp.199, %tmp.201);
 [ "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogView.mc" 232 12 ]
-        %tmp.253 = lgetv %targetDc.2;
-        %tmp.254 = getv function %tmp.253 :drawText;
-        %tmp.256 = lgetv %width.3;
-        %tmp.257 = 2;
-        %tmp.258 = div %tmp.256 %tmp.257;
-        %tmp.259 = 2;
-        %tmp.261 = lgetv %font.7;
-        %tmp.262 = as %tmp.261 { (!Null) };
-        %tmp.263 = "12";
-        %tmp.264 = getm $.Toybox.Graphics;
-        %tmp.265 = getv %tmp.264 :TEXT_JUSTIFY_CENTER;
-        invoke %tmp.253 %tmp.254(%tmp.258, %tmp.259, %tmp.262, %tmp.263, %tmp.265);
+        %tmp.202 = lgetv %targetDc.2;
+        %tmp.203 = getv function %tmp.202 :drawText;
+        %tmp.205 = lgetv %width.3;
+        %tmp.206 = 2;
+        %tmp.207 = div %tmp.205 %tmp.206;
+        %tmp.208 = 2;
+        %tmp.210 = lgetv %font.7;
+        %tmp.211 = as %tmp.210 { (!Null) };
+        %tmp.212 = "12";
+        %tmp.213 = getm $.Toybox.Graphics;
+        %tmp.214 = getv %tmp.213 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.202 %tmp.203(%tmp.207, %tmp.208, %tmp.211, %tmp.212, %tmp.214);
 [ "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogView.mc" 233 12 ]
-        %tmp.266 = lgetv %targetDc.2;
-        %tmp.267 = getv function %tmp.266 :drawText;
-        %tmp.269 = lgetv %width.3;
-        %tmp.270 = 2;
-        %tmp.271 = sub %tmp.269 %tmp.270;
-        %tmp.273 = lgetv %height.4;
-        %tmp.274 = 2;
-        %tmp.275 = div %tmp.273 %tmp.274;
-        %tmp.276 = 15;
-        %tmp.277 = sub %tmp.275 %tmp.276;
-        %tmp.279 = lgetv %font.7;
-        %tmp.280 = as %tmp.279 { (!Null) };
-        %tmp.281 = "3";
-        %tmp.282 = getm $.Toybox.Graphics;
-        %tmp.283 = getv %tmp.282 :TEXT_JUSTIFY_RIGHT;
-        invoke %tmp.266 %tmp.267(%tmp.271, %tmp.277, %tmp.280, %tmp.281, %tmp.283);
+        %tmp.215 = lgetv %targetDc.2;
+        %tmp.216 = getv function %tmp.215 :drawText;
+        %tmp.218 = lgetv %width.3;
+        %tmp.219 = 2;
+        %tmp.220 = sub %tmp.218 %tmp.219;
+        %tmp.222 = lgetv %height.4;
+        %tmp.223 = 2;
+        %tmp.224 = div %tmp.222 %tmp.223;
+        %tmp.225 = 15;
+        %tmp.226 = sub %tmp.224 %tmp.225;
+        %tmp.228 = lgetv %font.7;
+        %tmp.229 = as %tmp.228 { (!Null) };
+        %tmp.230 = "3";
+        %tmp.231 = getm $.Toybox.Graphics;
+        %tmp.232 = getv %tmp.231 :TEXT_JUSTIFY_RIGHT;
+        invoke %tmp.215 %tmp.216(%tmp.220, %tmp.226, %tmp.229, %tmp.230, %tmp.232);
 [ "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogView.mc" 234 12 ]
-        %tmp.284 = lgetv %targetDc.2;
-        %tmp.285 = getv function %tmp.284 :setColor;
-        %tmp.286 = getm $.Toybox.Graphics;
-        %tmp.287 = getv %tmp.286 :COLOR_WHITE;
-        %tmp.288 = getm $.Toybox.Graphics;
-        %tmp.289 = getv %tmp.288 :COLOR_BLACK;
-        invoke %tmp.284 %tmp.285(%tmp.287, %tmp.289);
+        %tmp.233 = lgetv %targetDc.2;
+        %tmp.234 = getv function %tmp.233 :setColor;
+        %tmp.235 = getm $.Toybox.Graphics;
+        %tmp.236 = getv %tmp.235 :COLOR_WHITE;
+        %tmp.237 = getm $.Toybox.Graphics;
+        %tmp.238 = getv %tmp.237 :COLOR_BLACK;
+        invoke %tmp.233 %tmp.234(%tmp.236, %tmp.238);
 [ "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogView.mc" 235 12 ]
-        %tmp.290 = lgetv %targetDc.2;
-        %tmp.291 = getv function %tmp.290 :drawText;
-        %tmp.293 = lgetv %width.3;
-        %tmp.294 = 2;
-        %tmp.295 = div %tmp.293 %tmp.294;
-        %tmp.297 = lgetv %height.4;
-        %tmp.298 = 30;
-        %tmp.299 = sub %tmp.297 %tmp.298;
-        %tmp.301 = lgetv %font.7;
-        %tmp.302 = as %tmp.301 { (!Null) };
-        %tmp.303 = "6";
-        %tmp.304 = getm $.Toybox.Graphics;
-        %tmp.305 = getv %tmp.304 :TEXT_JUSTIFY_CENTER;
-        invoke %tmp.290 %tmp.291(%tmp.295, %tmp.299, %tmp.302, %tmp.303, %tmp.305);
+        %tmp.239 = lgetv %targetDc.2;
+        %tmp.240 = getv function %tmp.239 :drawText;
+        %tmp.242 = lgetv %width.3;
+        %tmp.243 = 2;
+        %tmp.244 = div %tmp.242 %tmp.243;
+        %tmp.246 = lgetv %height.4;
+        %tmp.247 = 30;
+        %tmp.248 = sub %tmp.246 %tmp.247;
+        %tmp.250 = lgetv %font.7;
+        %tmp.251 = as %tmp.250 { (!Null) };
+        %tmp.252 = "6";
+        %tmp.253 = getm $.Toybox.Graphics;
+        %tmp.254 = getv %tmp.253 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.239 %tmp.240(%tmp.244, %tmp.248, %tmp.251, %tmp.252, %tmp.254);
 [ "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogView.mc" 236 12 ]
-        %tmp.306 = lgetv %targetDc.2;
-        %tmp.307 = getv function %tmp.306 :drawText;
-        %tmp.308 = 2;
-        %tmp.310 = lgetv %height.4;
-        %tmp.311 = 2;
-        %tmp.312 = div %tmp.310 %tmp.311;
-        %tmp.313 = 15;
-        %tmp.314 = sub %tmp.312 %tmp.313;
-        %tmp.316 = lgetv %font.7;
-        %tmp.317 = as %tmp.316 { (!Null) };
-        %tmp.318 = "9";
-        %tmp.319 = getm $.Toybox.Graphics;
-        %tmp.320 = getv %tmp.319 :TEXT_JUSTIFY_LEFT;
-        invoke %tmp.306 %tmp.307(%tmp.308, %tmp.314, %tmp.317, %tmp.318, %tmp.320);
+        %tmp.255 = lgetv %targetDc.2;
+        %tmp.256 = getv function %tmp.255 :drawText;
+        %tmp.257 = 2;
+        %tmp.259 = lgetv %height.4;
+        %tmp.260 = 2;
+        %tmp.261 = div %tmp.259 %tmp.260;
+        %tmp.262 = 15;
+        %tmp.263 = sub %tmp.261 %tmp.262;
+        %tmp.265 = lgetv %font.7;
+        %tmp.266 = as %tmp.265 { (!Null) };
+        %tmp.267 = "9";
+        %tmp.268 = getm $.Toybox.Graphics;
+        %tmp.269 = getv %tmp.268 :TEXT_JUSTIFY_LEFT;
+        invoke %tmp.255 %tmp.256(%tmp.257, %tmp.263, %tmp.266, %tmp.267, %tmp.269);
 C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_230_26_237_8_stop:
         goto @C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_230_8_237_8_if_end;
 C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_230_8_237_8_if_end:
 [ "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogView.mc" 242 8 ]
         [ "C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_168_47_277_4_start" "C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_168_47_277_4_stop" ]
         %offscreenBuffer.8 = local;
-        %tmp.322 = getv ? :_offscreenBuffer;
-        lputv %offscreenBuffer.8 %tmp.322;
+        %tmp.271 = getv ? :_offscreenBuffer;
+        lputv %offscreenBuffer.8 %tmp.271;
 [ "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogView.mc" 243 8 ]
 C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_243_8_251_8_if_stmt:
 C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_243_12_243_61_begin:
-        %tmp.323 = null;
-        %tmp.325 = getv ? :_dateBuffer;
-        %tmp.326 = ne %tmp.323 %tmp.325;
-        bf %tmp.326 @C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_243_8_251_8_if_end;
+        %tmp.272 = null;
+        %tmp.274 = getv ? :_dateBuffer;
+        %tmp.275 = ne %tmp.272 %tmp.274;
+        bf %tmp.275 @C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_243_8_251_8_if_end;
 C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_243_37_243_61_true:
-        %tmp.327 = null;
-        %tmp.329 = lgetv %offscreenBuffer.8;
-        %tmp.330 = ne %tmp.327 %tmp.329;
-        push %tmp.330;
+        %tmp.276 = null;
+        %tmp.278 = lgetv %offscreenBuffer.8;
+        %tmp.279 = ne %tmp.276 %tmp.278;
+        push %tmp.279;
 C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_243_37_243_61_end:
-        %tmp.331 = phi [%tmp.326 @C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_243_12_243_61_begin] [%tmp.330 @C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_243_37_243_61_true] [%tmp.331 @C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_243_37_243_61_end];
-        bf %tmp.331 @C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_243_8_251_8_if_end;
+        %tmp.280 = phi [%tmp.275 @C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_243_12_243_61_begin] [%tmp.279 @C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_243_37_243_61_true] [%tmp.280 @C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_243_37_243_61_end];
+        bf %tmp.280 @C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_243_8_251_8_if_end;
 C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_243_8_251_8_if_true:
 C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_243_64_251_8_start:
 [ "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogView.mc" 244 12 ]
         [ "C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_243_64_251_8_start" "C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_243_64_251_8_stop" ]
         %dateDc.9 = local;
-        %tmp.333 = getv ? :_dateBuffer;
-        %tmp.334 = as %tmp.333 { (!Null) };
-        %tmp.335 = getv function %tmp.334 :getDc;
-        %tmp.336 = invoke %tmp.334 %tmp.335();
-        lputv %dateDc.9 %tmp.336;
+        %tmp.282 = getv ? :_dateBuffer;
+        %tmp.283 = as %tmp.282 { (!Null) };
+        %tmp.284 = getv function %tmp.283 :getDc;
+        %tmp.285 = invoke %tmp.283 %tmp.284();
+        lputv %dateDc.9 %tmp.285;
 [ "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogView.mc" 247 12 ]
-        %tmp.337 = lgetv %dateDc.9;
-        %tmp.338 = getv function %tmp.337 :drawBitmap;
-        %tmp.339 = 0;
-        %tmp.341 = lgetv %height.4;
-        %tmp.342 = 4;
-        %tmp.343 = div %tmp.341 %tmp.342;
-        %tmp.344 = sub 0 %tmp.343;
-        %tmp.346 = lgetv %offscreenBuffer.8;
-        %tmp.347 = as %tmp.346 { (!Null) };
-        invoke %tmp.337 %tmp.338(%tmp.339, %tmp.344, %tmp.347);
+        %tmp.286 = lgetv %dateDc.9;
+        %tmp.287 = getv function %tmp.286 :drawBitmap;
+        %tmp.288 = 0;
+        %tmp.290 = lgetv %height.4;
+        %tmp.291 = 4;
+        %tmp.292 = div %tmp.290 %tmp.291;
+        %tmp.293 = sub 0 %tmp.292;
+        %tmp.295 = lgetv %offscreenBuffer.8;
+        %tmp.296 = as %tmp.295 { (!Null) };
+        invoke %tmp.286 %tmp.287(%tmp.288, %tmp.293, %tmp.296);
 [ "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogView.mc" 250 12 ]
-        %tmp.348 = self;
-        %tmp.349 = getv function %tmp.348 :drawDateString;
-        %tmp.351 = lgetv %dateDc.9;
-        %tmp.353 = lgetv %width.3;
-        %tmp.354 = 2;
-        %tmp.355 = div %tmp.353 %tmp.354;
-        %tmp.356 = 0;
-        invoke %tmp.348 %tmp.349(%tmp.351, %tmp.355, %tmp.356);
+        %tmp.297 = self;
+        %tmp.298 = getv function %tmp.297 :drawDateString;
+        %tmp.300 = lgetv %dateDc.9;
+        %tmp.302 = lgetv %width.3;
+        %tmp.303 = 2;
+        %tmp.304 = div %tmp.302 %tmp.303;
+        %tmp.305 = 0;
+        invoke %tmp.297 %tmp.298(%tmp.300, %tmp.304, %tmp.305);
 C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_243_64_251_8_stop:
         goto @C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_243_8_251_8_if_end;
 C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_243_8_251_8_if_end:
 [ "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogView.mc" 254 8 ]
-        %tmp.357 = self;
-        %tmp.358 = getv function %tmp.357 :drawBackground;
-        %tmp.360 = lgetv %dc;
-        invoke %tmp.357 %tmp.358(%tmp.360);
+        %tmp.306 = self;
+        %tmp.307 = getv function %tmp.306 :drawBackground;
+        %tmp.309 = lgetv %dc;
+        invoke %tmp.306 %tmp.307(%tmp.309);
 [ "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogView.mc" 257 8 ]
         [ "C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_168_47_277_4_start" "C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_168_47_277_4_stop" ]
         %dataString.10 = local;
-        %tmp.361 = getm $.Toybox.System;
-        %tmp.362 = getv function %tmp.361 :getSystemStats;
-        %tmp.363 = invoke %tmp.361 %tmp.362();
-        %tmp.364 = getv %tmp.363 :battery;
-        %tmp.365 = 0.5;
-        %tmp.366 = add %tmp.364 %tmp.365;
-        %tmp.367 = getv function %tmp.366 :toNumber;
-        %tmp.368 = invoke %tmp.366 %tmp.367();
-        %tmp.369 = getv function %tmp.368 :toString;
-        %tmp.370 = invoke %tmp.368 %tmp.369();
-        %tmp.371 = "%";
-        %tmp.372 = add %tmp.370 %tmp.371;
-        lputv %dataString.10 %tmp.372;
+        %tmp.310 = getm $.Toybox.System;
+        %tmp.311 = getv function %tmp.310 :getSystemStats;
+        %tmp.312 = invoke %tmp.310 %tmp.311();
+        %tmp.313 = getv %tmp.312 :battery;
+        %tmp.314 = 0.5;
+        %tmp.315 = add %tmp.313 %tmp.314;
+        %tmp.316 = getv function %tmp.315 :toNumber;
+        %tmp.317 = invoke %tmp.315 %tmp.316();
+        %tmp.318 = getv function %tmp.317 :toString;
+        %tmp.319 = invoke %tmp.317 %tmp.318();
+        %tmp.320 = "%";
+        %tmp.321 = add %tmp.319 %tmp.320;
+        lputv %dataString.10 %tmp.321;
 [ "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogView.mc" 258 8 ]
-        %tmp.373 = lgetv %dc;
-        %tmp.374 = getv function %tmp.373 :setColor;
-        %tmp.375 = getm $.Toybox.Graphics;
-        %tmp.376 = getv %tmp.375 :COLOR_WHITE;
-        %tmp.377 = getm $.Toybox.Graphics;
-        %tmp.378 = getv %tmp.377 :COLOR_TRANSPARENT;
-        invoke %tmp.373 %tmp.374(%tmp.376, %tmp.378);
+        %tmp.322 = lgetv %dc;
+        %tmp.323 = getv function %tmp.322 :setColor;
+        %tmp.324 = getm $.Toybox.Graphics;
+        %tmp.325 = getv %tmp.324 :COLOR_WHITE;
+        %tmp.326 = getm $.Toybox.Graphics;
+        %tmp.327 = getv %tmp.326 :COLOR_TRANSPARENT;
+        invoke %tmp.322 %tmp.323(%tmp.325, %tmp.327);
 [ "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogView.mc" 259 8 ]
-        %tmp.379 = lgetv %dc;
-        %tmp.380 = getv function %tmp.379 :drawText;
-        %tmp.382 = lgetv %width.3;
-        %tmp.383 = 2;
-        %tmp.384 = div %tmp.382 %tmp.383;
-        %tmp.385 = 3;
-        %tmp.387 = lgetv %height.4;
-        %tmp.388 = mul %tmp.385 %tmp.387;
-        %tmp.389 = 4;
-        %tmp.390 = div %tmp.388 %tmp.389;
-        %tmp.391 = getm $.Toybox.Graphics;
-        %tmp.392 = getv %tmp.391 :FONT_TINY;
-        %tmp.394 = lgetv %dataString.10;
-        %tmp.395 = getm $.Toybox.Graphics;
-        %tmp.396 = getv %tmp.395 :TEXT_JUSTIFY_CENTER;
-        invoke %tmp.379 %tmp.380(%tmp.384, %tmp.390, %tmp.392, %tmp.394, %tmp.396);
+        %tmp.328 = lgetv %dc;
+        %tmp.329 = getv function %tmp.328 :drawText;
+        %tmp.331 = lgetv %width.3;
+        %tmp.332 = 2;
+        %tmp.333 = div %tmp.331 %tmp.332;
+        %tmp.334 = 3;
+        %tmp.336 = lgetv %height.4;
+        %tmp.337 = mul %tmp.334 %tmp.336;
+        %tmp.338 = 4;
+        %tmp.339 = div %tmp.337 %tmp.338;
+        %tmp.340 = getm $.Toybox.Graphics;
+        %tmp.341 = getv %tmp.340 :FONT_TINY;
+        %tmp.343 = lgetv %dataString.10;
+        %tmp.344 = getm $.Toybox.Graphics;
+        %tmp.345 = getv %tmp.344 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.328 %tmp.329(%tmp.333, %tmp.339, %tmp.341, %tmp.343, %tmp.345);
 [ "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogView.mc" 261 8 ]
 C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_261_8_274_8_if_stmt:
-        %tmp.398 = getv ? :_partialUpdatesAllowed;
-        bf %tmp.398 @C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_261_8_274_8_if_false;
+        %tmp.347 = getv ? :_partialUpdatesAllowed;
+        bf %tmp.347 @C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_261_8_274_8_if_false;
 C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_261_8_274_8_if_true:
 C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_261_36_265_8_start:
 [ "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogView.mc" 264 12 ]
-        %tmp.399 = self;
-        %tmp.400 = getv function %tmp.399 :onPartialUpdate;
-        %tmp.402 = lgetv %dc;
-        invoke %tmp.399 %tmp.400(%tmp.402);
+        %tmp.348 = self;
+        %tmp.349 = getv function %tmp.348 :onPartialUpdate;
+        %tmp.351 = lgetv %dc;
+        invoke %tmp.348 %tmp.349(%tmp.351);
 C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_261_36_265_8_stop:
         goto @C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_261_8_274_8_if_end;
 C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_261_8_274_8_if_false:
 [ "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogView.mc" 265 15 ]
 C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_265_15_274_8_if_stmt:
-        %tmp.404 = getv ? :_isAwake;
-        bf %tmp.404 @C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_265_15_274_8_if_end;
+        %tmp.353 = getv ? :_isAwake;
+        bf %tmp.353 @C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_265_15_274_8_if_end;
 C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_265_15_274_8_if_true:
 C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_265_29_274_8_start:
 [ "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogView.mc" 268 12 ]
-        %tmp.405 = lgetv %dc;
-        %tmp.406 = getv function %tmp.405 :setColor;
-        %tmp.407 = getm $.Toybox.Graphics;
-        %tmp.408 = getv %tmp.407 :COLOR_RED;
-        %tmp.409 = getm $.Toybox.Graphics;
-        %tmp.410 = getv %tmp.409 :COLOR_TRANSPARENT;
-        invoke %tmp.405 %tmp.406(%tmp.408, %tmp.410);
+        %tmp.354 = lgetv %dc;
+        %tmp.355 = getv function %tmp.354 :setColor;
+        %tmp.356 = getm $.Toybox.Graphics;
+        %tmp.357 = getv %tmp.356 :COLOR_RED;
+        %tmp.358 = getm $.Toybox.Graphics;
+        %tmp.359 = getv %tmp.358 :COLOR_TRANSPARENT;
+        invoke %tmp.354 %tmp.355(%tmp.357, %tmp.359);
 [ "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogView.mc" 269 12 ]
         [ "C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_265_29_274_8_start" "C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_265_29_274_8_stop" ]
         %secondHand.11 = local;
-        %tmp.411 = lgetv %clockTime.1;
-        %tmp.412 = getv %tmp.411 :sec;
-        %tmp.413 = 60.0;
-        %tmp.414 = div %tmp.412 %tmp.413;
-        %tmp.415 = getm $.Toybox.Math;
-        %tmp.416 = getv %tmp.415 :PI;
-        %tmp.417 = mul %tmp.414 %tmp.416;
-        %tmp.418 = 2;
-        %tmp.419 = mul %tmp.417 %tmp.418;
-        lputv %secondHand.11 %tmp.419;
+        %tmp.360 = lgetv %clockTime.1;
+        %tmp.361 = getv %tmp.360 :sec;
+        %tmp.362 = 60.0;
+        %tmp.363 = div %tmp.361 %tmp.362;
+        %tmp.364 = getm $.Toybox.Math;
+        %tmp.365 = getv %tmp.364 :PI;
+        %tmp.366 = mul %tmp.363 %tmp.365;
+        %tmp.367 = 2;
+        %tmp.368 = mul %tmp.366 %tmp.367;
+        lputv %secondHand.11 %tmp.368;
 [ "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogView.mc" 271 12 ]
 C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_271_12_273_12_if_stmt:
-        %tmp.421 = getv ? :_screenCenterPoint;
-        %tmp.422 = null;
-        %tmp.423 = ne %tmp.421 %tmp.422;
-        bf %tmp.423 @C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_271_12_273_12_if_end;
+        %tmp.370 = getv ? :_screenCenterPoint;
+        %tmp.371 = null;
+        %tmp.372 = ne %tmp.370 %tmp.371;
+        bf %tmp.372 @C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_271_12_273_12_if_end;
 C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_271_12_273_12_if_true:
 C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_271_44_273_12_start:
 [ "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogView.mc" 272 16 ]
-        %tmp.424 = lgetv %dc;
-        %tmp.425 = getv function %tmp.424 :fillPolygon;
-        %tmp.426 = self;
-        %tmp.427 = getv function %tmp.426 :generateHandCoordinates;
-        %tmp.429 = getv ? :_screenCenterPoint;
-        %tmp.430 = as %tmp.429 { (!Null) };
-        %tmp.432 = lgetv %secondHand.11;
-        %tmp.433 = lgetv %dc;
-        %tmp.434 = getv function %tmp.433 :getHeight;
-        %tmp.435 = invoke %tmp.433 %tmp.434();
-        %tmp.436 = 4;
-        %tmp.437 = div %tmp.435 %tmp.436;
-        %tmp.438 = 20;
-        %tmp.439 = lgetv %dc;
-        %tmp.440 = getv function %tmp.439 :getWidth;
-        %tmp.441 = invoke %tmp.439 %tmp.440();
-        %tmp.442 = 90;
-        %tmp.443 = div %tmp.441 %tmp.442;
-        %tmp.444 = invoke %tmp.426 %tmp.427(%tmp.430, %tmp.432, %tmp.437, %tmp.438, %tmp.443);
-        invoke %tmp.424 %tmp.425(%tmp.444);
+        %tmp.373 = lgetv %dc;
+        %tmp.374 = getv function %tmp.373 :fillPolygon;
+        %tmp.375 = self;
+        %tmp.376 = getv function %tmp.375 :generateHandCoordinates;
+        %tmp.378 = getv ? :_screenCenterPoint;
+        %tmp.379 = as %tmp.378 { (!Null) };
+        %tmp.381 = lgetv %secondHand.11;
+        %tmp.382 = lgetv %dc;
+        %tmp.383 = getv function %tmp.382 :getHeight;
+        %tmp.384 = invoke %tmp.382 %tmp.383();
+        %tmp.385 = 4;
+        %tmp.386 = div %tmp.384 %tmp.385;
+        %tmp.387 = 20;
+        %tmp.388 = lgetv %dc;
+        %tmp.389 = getv function %tmp.388 :getWidth;
+        %tmp.390 = invoke %tmp.388 %tmp.389();
+        %tmp.391 = 90;
+        %tmp.392 = div %tmp.390 %tmp.391;
+        %tmp.393 = invoke %tmp.375 %tmp.376(%tmp.379, %tmp.381, %tmp.386, %tmp.387, %tmp.392);
+        invoke %tmp.373 %tmp.374(%tmp.393);
 C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_271_44_273_12_stop:
         goto @C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_271_12_273_12_if_end;
 C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_271_12_273_12_if_end:
@@ -1415,8 +1360,8 @@ C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_265_29_274_8_stop:
 C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_265_15_274_8_if_end:
 C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_261_8_274_8_if_end:
 [ "C:\Users\d_kuc\Desktop\Garmin\Analog\source\AnalogView.mc" 276 8 ]
-        %tmp.445 = false;
-        putv self :_fullScreenRefresh %tmp.445;
+        %tmp.394 = false;
+        putv self :_fullScreenRefresh %tmp.394;
 C_Users_d_kuc_Desktop_Garmin_Analog_source_AnalogView_mc_168_47_277_4_stop:
     }
     //! Draw the date string into the provided buffer at the specified location

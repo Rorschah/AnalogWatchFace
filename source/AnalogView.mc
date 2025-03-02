@@ -188,11 +188,11 @@ class AnalogView extends WatchUi.WatchFace {
         targetDc.fillRectangle(0, 0, dc.getWidth(), dc.getHeight());
 
         // Draw a grey triangle over the upper right half of the screen.
-        targetDc.setColor(Graphics.COLOR_DK_GRAY, Graphics.COLOR_DK_GRAY);
-        targetDc.fillPolygon([[0, 0],
-                              [targetDc.getWidth(), 0],
-                              [targetDc.getWidth(), targetDc.getHeight()],
-                              [0, 0]]);
+        // targetDc.setColor(Graphics.COLOR_DK_GRAY, Graphics.COLOR_DK_GRAY);
+        // targetDc.fillPolygon([[0, 0],
+        //                       [targetDc.getWidth(), 0],
+        //                       [targetDc.getWidth(), targetDc.getHeight()],
+        //                       [0, 0]]);
 
         // Draw the tick marks around the edges of the screen
         drawHashMarks(targetDc);
@@ -228,7 +228,7 @@ class AnalogView extends WatchUi.WatchFace {
         // Draw the 3, 6, 9, and 12 hour labels.
         var font = _font;
         if (font != null) {
-            targetDc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_DK_GRAY);
+            targetDc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
             targetDc.drawText(width / 2, 2, font, "12", Graphics.TEXT_JUSTIFY_CENTER);
             targetDc.drawText(width - 2, (height / 2) - 15, font, "3", Graphics.TEXT_JUSTIFY_RIGHT);
             targetDc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
